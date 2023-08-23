@@ -1,11 +1,11 @@
 # Projeto-FDS
-Projeto da cadeira de FDS, do segundo periodo de ciência da computação no CESAR.
+Projeto da cadeira de Fundamentos De Software, do segundo período de ciência da computação no CESAR.
 
 Ano: 2023.2
 Turma: CC - A
 
 Alunos:
-Julia Verissimo - jov@cesar.school
+Júlia Veríssimo - jov@cesar.school
 Lucca da Veiga - lvg2@cesar.school
 Luiz Flavius Veras - lfvsf@cesar.school
 Maria Luisa Coimbra - mlcl@cesar.school
