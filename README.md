@@ -5,11 +5,11 @@ Ano: 2023.2
 Turma: CC - A
 
 Alunos:
-- Julia Verissimo
-- Lucca da Veiga
-- Luiz Flavius Veras
-- Maria Luisa Coimbra
-- Maria Luiza Calife
-- Mirna Lustosa
+Julia Verissimo - jov@cesar.school
+Lucca da Veiga - lvg2@cesar.school
+Luiz Flavius Veras - lfvsf@cesar.school
+Maria Luisa Coimbra - mlcl@cesar.school
+Maria Luiza Calife - mlcdf@cesar.school
+Mirna Lustosa - mlam@cesar.school 
   
 Professor: Ricardo Araujo Costa
