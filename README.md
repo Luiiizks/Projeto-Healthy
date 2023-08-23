@@ -2,7 +2,6 @@
 Projeto da cadeira de Fundamentos De Software, do segundo período de ciência da computação no CESAR.
 
 Ano: 2023.2
-
 Turma: CC - A
 
 Alunos:
