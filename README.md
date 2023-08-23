@@ -7,17 +7,11 @@ Turma: CC - A
 
 Alunos:
 
-Júlia Veríssimo 
-- jov@cesar.school
-Lucca da Veiga
-- lvg2@cesar.school
-Luiz Flavius Veras
-- lfvsf@cesar.school
-Maria Luisa Coimbra
-- mlcl@cesar.school
-Maria Luiza Calife
-- mlcdf@cesar.school
-Mirna Lustosa
-- mlam@cesar.school 
+Júlia Veríssimo - jov@cesar.school
+Lucca da Veiga - lvg2@cesar.school
+Luiz Flavius Veras - lfvsf@cesar.school
+Maria Luisa Coimbra - mlcl@cesar.school
+Maria Luiza Calife - mlcdf@cesar.school
+Mirna Lustosa - mlam@cesar.school 
   
 Professor: Ricardo Araujo Costa
