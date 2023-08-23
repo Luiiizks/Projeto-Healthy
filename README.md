@@ -7,7 +7,7 @@ Turma: CC - A
 
 Alunos:
 
-Júlia Veríssimo - jov@cesar.school /n
+Júlia Veríssimo - jov@cesar.school 
 Lucca da Veiga - lvg2@cesar.school
 Luiz Flavius Veras - lfvsf@cesar.school
 Maria Luisa Coimbra - mlcl@cesar.school
