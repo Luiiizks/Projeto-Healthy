@@ -18,6 +18,11 @@
   </div>
 </div>
 
+| ![Imagem de perfil do usuário1](https://github.com/usuario1.png) | ![Imagem de perfil do usuário2](https://github.com/usuario2.png) | ![Imagem de perfil do usuário3](https://github.com/usuario3.png) |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| [@usuario1](https://github.com/usuario1)                     | [@usuario2](https://github.com/usuario2)                     | [@usuario3](https://github.com/usuario3)                     |
+
+
 
 # Projeto-FDS
 Projeto da cadeira de Fundamentos De Software, do segundo período de ciência da computação no CESAR.
