@@ -10,7 +10,10 @@ O site “Healthy” é uma plataforma projetada para fornecer ao usuário uma e
 # Projeto-FDS
 Projeto da cadeira de Fundamentos De Software, do segundo período de ciência da computação no CESAR.
 Ano: 2023.2 <br/>
-Turma: CC - A
+Turma: CC - A <br/>
+Link Jira: https://fds-cesar.atlassian.net/jira/software/projects/KAN/boards/1 <br/>
+Link Drive: https://drive.google.com/drive/folders/1iBCM2QprI1FWM4f6AfQXnx1gVc7KUZbJ
+
 
 Alunos:
 
