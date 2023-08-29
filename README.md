@@ -4,9 +4,11 @@
 | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
 | [@xjuveri](https://github.com/xjuveri)                                                              | [@usuario2](https://github.com/usuario2)                                                              | [@Luiiizks](https://github.com/Luiiizks)                                                              | [@Malucoimbr](https://github.com/Malucoimbr)                                                              | [@usuario5](https://github.com/usuario5)                                                              | [@usuario6](https://github.com/usuario6)                                                              |
 
+# Descrição do produto
+O site “Healthy” é uma plataforma projetada para fornecer ao usuário uma experiência completa e personalizada na busca por uma vida mais saudável e equilibrada. O nosso propósito é capacitar o cliente a cuidar da sua saúde e bem-estar, oferecendo uma variedade de recursos e funcionalidades projetados para auxiliá-lo em sua jornada, fornecendo ao usuário as ferramentas e informações necessárias para aprimorar seu estilo de vida em diversas áreas-chave, abrangendo nutrição, exercícios e gestão do peso corporal. Oferecemos uma variedade de funcionalidades que auxiliam no controle de saúde e condicionamento físico.
+
 # Projeto-FDS
 Projeto da cadeira de Fundamentos De Software, do segundo período de ciência da computação no CESAR.
-
 Ano: 2023.2 <br/>
 Turma: CC - A
 
