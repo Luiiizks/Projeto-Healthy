@@ -4,9 +4,21 @@
 | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
 | [@xjuveri](https://github.com/xjuveri)                                                              | [@usuario2](https://github.com/usuario2)                                                              | [@Luiiizks](https://github.com/Luiiizks)                                                              | [@Malucoimbr](https://github.com/Malucoimbr)                                                              | [@usuario5](https://github.com/usuario5)                                                              | [@usuario6](https://github.com/usuario6)                                                              |
 
-| <img src="https://github.com/usuario1.png" alt="Imagem de perfil do usuário1" style="border-radius: 50%; border: 1px solid #000; width: 100px; height: 100px;"> | <img src="https://github.com/usuario2.png" alt="Imagem de perfil do usuário2" style="border-radius: 50%; border: 1px solid #000; width: 100px; height: 100px;"> | <img src="https://github.com/usuario3.png" alt="Imagem de perfil do usuário3" style="border-radius: 50%; border: 1px solid #000; width: 100px; height: 100px;"> |
-| :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
-| [@usuario1](https://github.com/usuario1)                                                              | [@usuario2](https://github.com/usuario2)                                                              | [@usuario3](https://github.com/usuario3)                                                              |
+1. <a href="https://github.com/usuario1">
+     <img src="https://github.com/usuario1.png" alt="Imagem de perfil do usuário1" style="border-radius: 50%; border: 1px solid #000; width: 100px; height: 100px;">
+   </a>
+   [@usuario1](https://github.com/usuario1)
+   
+2. <a href="https://github.com/usuario2">
+     <img src="https://github.com/usuario2.png" alt="Imagem de perfil do usuário2" style="border-radius: 50%; border: 1px solid #000; width: 100px; height: 100px;">
+   </a>
+   [@usuario2](https://github.com/usuario2)
+   
+3. <a href="https://github.com/usuario3">
+     <img src="https://github.com/usuario3.png" alt="Imagem de perfil do usuário3" style="border-radius: 50%; border: 1px solid #000; width: 100px; height: 100px;">
+   </a>
+   [@usuario3](https://github.com/usuario3)
+
 
 # Projeto-FDS
 Projeto da cadeira de Fundamentos De Software, do segundo período de ciência da computação no CESAR.
