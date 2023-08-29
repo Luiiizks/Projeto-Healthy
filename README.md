@@ -6,9 +6,9 @@
   </div>
   
   <div style="text-align: center;">
-    <img src="https://github.com/usuario2.png" alt="Imagem de perfil do usuário2" style="border-radius: 50%; width: 100px; height: 100px;">
+    <img src="https://github.com/xjuveri.png" alt="Imagem de perfil do xjuveri" style="border-radius: 50%; width: 100px; height: 100px;">
     <br>
-    <a href="https://github.com/usuario2">@usuario2</a>
+    <a href="https://github.com/xjuveri">@xjuveri</a>
   </div>
   
   <div style="text-align: center;">
