@@ -1,5 +1,23 @@
-* [@Luiiizks](https://github.com/Luiiizks)
-  ![Imagem de perfil do usuário1](https://github.com/Luiiizks.png)
+<div style="display: flex; justify-content: space-between;">
+  <div style="text-align: center;">
+    <img src="https://github.com/Luiiizks.png" alt="Imagem de perfil do usuário1" style="border-radius: 50%; width: 100px; height: 100px;">
+    <br>
+    <a href="https://github.com/Luiiizks">@Luiiizks</a>
+  </div>
+  
+  <div style="text-align: center;">
+    <img src="https://github.com/usuario2.png" alt="Imagem de perfil do usuário2" style="border-radius: 50%; width: 100px; height: 100px;">
+    <br>
+    <a href="https://github.com/usuario2">@usuario2</a>
+  </div>
+  
+  <div style="text-align: center;">
+    <img src="https://github.com/usuario3.png" alt="Imagem de perfil do usuário3" style="border-radius: 50%; width: 100px; height: 100px;">
+    <br>
+    <a href="https://github.com/usuario3">@usuario3</a>
+  </div>
+</div>
+
 
 # Projeto-FDS
 Projeto da cadeira de Fundamentos De Software, do segundo período de ciência da computação no CESAR.
