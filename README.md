@@ -16,8 +16,7 @@ Link Jira: https://fds-cesar.atlassian.net/jira/software/projects/KAN/boards/1 <
 Link Drive: https://drive.google.com/drive/folders/1iBCM2QprI1FWM4f6AfQXnx1gVc7KUZbJ
 
 
-Alunos:
-
+# Alunos
 Júlia Veríssimo - jov@cesar.school <br/>
 Lucca da Veiga - lvg2@cesar.school <br/>
 Luiz Flavius Veras - lfvsf@cesar.school <br/>
