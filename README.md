@@ -12,10 +12,10 @@ O site “Healthy” é uma plataforma projetada para fornecer ao usuário uma e
 Projeto da cadeira de **Fundamentos De Software**, do segundo período de ciência da computação no CESAR. <br/>
 Ano: 2023.2 <br/>
 Turma: CC - A <br/>
-Link Jira: https://l1nq.com/fds-cesar-jira <br/>
-Link Drive: https://acesse.one/drive-google-healthy <br/>
+Link **Jira**: https://l1nq.com/fds-cesar-jira <br/>
+Link **Drive**: https://acesse.one/drive-google-healthy <br/>
 
-Integrantes: <br/>
+**Integrantes:** <br/>
 Júlia Veríssimo - jov@cesar.school <br/>
 Lucca da Veiga - lvg2@cesar.school <br/>
 Luiz Flavius Veras - lfvsf@cesar.school <br/>
