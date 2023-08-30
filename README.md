@@ -13,6 +13,7 @@ Projeto da cadeira de **Fundamentos De Software**, do segundo período de ciênc
 Ano: 2023.2 <br/>
 Turma: CC - A <br/>
 Link Jira: https://l1nq.com/fds-cesar-jira <br/>
+Link Drive: https://acesse.one/drive-google-healthy <br/>
 
 Integrantes: <br/>
 Júlia Veríssimo - jov@cesar.school <br/>
