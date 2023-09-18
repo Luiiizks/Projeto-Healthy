@@ -31,7 +31,7 @@ Professor: Ricardo Araujo Costa.
 **Backlog do Jira**
 ![image](https://github.com/Luiiizks/Projeto-FDS/assets/109395661/ef2fec8f-9033-47a8-ad23-3d01ced4d447)
 
+**Protótipos Lo-Fi**: https://www.figma.com/file/PIuWUbePnvkrIQYNdAbEzt/fds?type=design&node-id=0-1&mode=design&t=abkDhZbpuhEPAxAU-0
+
 **Screencast**
 
-****
-Link **Protótipos Lo-Fi**: https://www.figma.com/file/PIuWUbePnvkrIQYNdAbEzt/fds?type=design&node-id=0-1&mode=design&t=abkDhZbpuhEPAxAU-0
