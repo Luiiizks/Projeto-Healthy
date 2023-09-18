@@ -28,3 +28,4 @@ Professor: Ricardo Araujo Costa.
 
 # Entrega 01
 
+Print do Backlog do Jira
