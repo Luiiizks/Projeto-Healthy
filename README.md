@@ -32,7 +32,7 @@ Professor: Ricardo Araujo Costa.
  <br/>
 ![jira-backlog](https://github.com/Luiiizks/Projeto-FDS/assets/98840187/f66b07f9-a9d1-4651-bf0f-ab73c68d3987)
 
-**Quadro do Jira**
+**Quadro do Jira - Sprint**
  <br/>
 ![jira-entrega01](https://github.com/Luiiizks/Projeto-FDS/assets/98840187/7d141114-464e-4c22-8c7e-65c709dad1e7)
  <br/>
