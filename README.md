@@ -22,6 +22,7 @@ Lucca da Veiga - lvg2@cesar.school <br/>
 Luiz Flavius Veras - lfvsf@cesar.school <br/>
 Maria Luisa Coimbra - mlcl@cesar.school <br/>
 Maria Luiza Calife - mlcdf@cesar.school <br/>
+
 Mirna Lustosa - mlam@cesar.school <br/>
   
 Professor: Ricardo Araujo Costa.
@@ -29,7 +30,15 @@ Professor: Ricardo Araujo Costa.
 # Entrega 01
 
 **Backlog do Jira**
-![image](https://github.com/Luiiizks/Projeto-FDS/assets/109395661/ef2fec8f-9033-47a8-ad23-3d01ced4d447)
+![jira-backlog](https://github.com/Luiiizks/Projeto-FDS/assets/98840187/f66b07f9-a9d1-4651-bf0f-ab73c68d3987)
+
+**Quadro do Jira**
+![jira-entrega01](https://github.com/Luiiizks/Projeto-FDS/assets/98840187/7d141114-464e-4c22-8c7e-65c709dad1e7)
+
+
+
+
+
 
 [**Protótipos Lo-Fi**](https://www.figma.com/file/PIuWUbePnvkrIQYNdAbEzt/fds?type=design&node-id=0-1&mode=design&t=abkDhZbpuhEPAxAU-0) <br/>
 [**Screencast**](https://drive.google.com/file/d/1jpGMLBfzb3DUeeEWV57G-Mo9xKpQb0GF/view?usp=drive_link) <br/>
