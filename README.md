@@ -12,8 +12,8 @@ O site “Healthy” é uma plataforma projetada para fornecer ao usuário uma e
 Projeto da cadeira de **Fundamentos De Software**, do segundo período de ciência da computação no CESAR. <br/>
 Ano: 2023.2 <br/>
 Turma: CC - A <br/>
-Link **Jira**: https://fds-cesar.atlassian.net/jira/software/projects/HEAL/boards/2 <br/>
-Link **Drive**: https://drive.google.com/drive/folders/1iBCM2QprI1FWM4f6AfQXnx1gVc7KUZbJ <br/>
+[**Jira**](https://fds-cesar.atlassian.net/jira/software/projects/HEAL/boards/2) <br/>
+[**Drive**](https://drive.google.com/drive/folders/1iBCM2QprI1FWM4f6AfQXnx1gVc7KUZbJ) <br/>
 
 
 **Integrantes:** <br/>
@@ -31,7 +31,6 @@ Professor: Ricardo Araujo Costa.
 **Backlog do Jira**
 ![image](https://github.com/Luiiizks/Projeto-FDS/assets/109395661/ef2fec8f-9033-47a8-ad23-3d01ced4d447)
 
-**Protótipos Lo-Fi**: https://www.figma.com/file/PIuWUbePnvkrIQYNdAbEzt/fds?type=design&node-id=0-1&mode=design&t=abkDhZbpuhEPAxAU-0
-
+[**Protótipos Lo-Fi**](https://www.figma.com/file/PIuWUbePnvkrIQYNdAbEzt/fds?type=design&node-id=0-1&mode=design&t=abkDhZbpuhEPAxAU-0)
 [**Screencast**](https://drive.google.com/file/d/1jpGMLBfzb3DUeeEWV57G-Mo9xKpQb0GF/view?usp=drive_link)
 
