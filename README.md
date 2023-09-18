@@ -29,5 +29,5 @@ Professor: Ricardo Araujo Costa.
 # Entrega 01
 
 Print do Backlog do Jira
-![image](https://github.com/Luiiizks/Projeto-FDS/assets/109395661/ef2fec8f-9033-47a8-ad23-3d01ced4d447)
+![image]([https://github.com/Luiiizks/Projeto-FDS/assets/109395661/ef2fec8f-9033-47a8-ad23-3d01ced4d447](https://github.com/Luiiizks/Projeto-FDS/assets/109395661/ef2fec8f-9033-47a8-ad23-3d01ced4d447)https://github.com/Luiiizks/Projeto-FDS/assets/109395661/ef2fec8f-9033-47a8-ad23-3d01ced4d447)
 
