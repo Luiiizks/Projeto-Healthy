@@ -41,3 +41,9 @@ Professor: Ricardo Araujo Costa.
 [**Protótipos Lo-Fi**](https://www.figma.com/file/PIuWUbePnvkrIQYNdAbEzt/fds?type=design&node-id=0-1&mode=design&t=abkDhZbpuhEPAxAU-0) //
 [**Screencast**](https://drive.google.com/file/d/1jpGMLBfzb3DUeeEWV57G-Mo9xKpQb0GF/view?usp=drive_link) <br/>
 
+
+# Entrega 02
+
+
+
+
