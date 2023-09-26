@@ -46,7 +46,7 @@ Professor: Ricardo Araujo Costa.
 
 **Diagrama de Atividades**
 <br/>
-![FDS - 2023 2](https://github.com/Luiiizks/Projeto-FDS/assets/98840187/5a82180a-3fbf-4d91-8cb2-d9a54c5cc020)
+[FDS - 2023.2 (1).pdf](https://github.com/Luiiizks/Projeto-FDS/files/12721047/FDS.-.2023.2.1.pdf)
 <br/>
 
 
