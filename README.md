@@ -51,7 +51,7 @@ Professor: Ricardo Araujo Costa.
 
 **Relato Pair Programming**
 
-Nosso grupo teve a oportunidade de experimentar o pair programming de forma extremamente positiva e benéfica. Essa abordagem colaborativa de desenvolvimento de software não apenas melhorou nossa eficiência, mas também promoveu   benefícios significativos para nossa equipe, já que nos permitiu resolver problemas de forma mais rápida e eficaz. Um membro do par frequentemente detectava erros que o outro poderia ter perdido, resultando em código mais limpo e confiável, o que nos levou a encontrar soluções melhores para desafios complexos. {: .center}
+Nosso grupo teve a oportunidade de experimentar o pair programming de forma extremamente positiva e benéfica. Essa abordagem colaborativa de desenvolvimento de software não apenas melhorou nossa eficiência, mas também promoveu   benefícios significativos para nossa equipe, já que nos permitiu resolver problemas de forma mais rápida e eficaz. Um membro do par frequentemente detectava erros que o outro poderia ter perdido, resultando em código mais limpo e confiável, o que nos levou a encontrar soluções melhores para desafios complexos. 
 
 
 
