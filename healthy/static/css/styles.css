@@ -2,6 +2,10 @@
     padding: 0;
 }
 
+.container-fluid .row {
+    margin: 0;
+}
+
 /* Navbar */
 
 .navbar {
@@ -38,4 +42,10 @@ footer p {
     text-align: center;
     top: 50%;
     position: relative;
+}
+
+/* Login */
+
+.auth-card {
+    margin-bottom: 30px;
 }
