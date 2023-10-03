@@ -4,4 +4,3 @@ Django==4.2.5
 django-crispy-forms==2.0
 python-dotenv==1.0.0
 sqlparse==0.4.4
-python==3.11
