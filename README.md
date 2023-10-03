@@ -63,12 +63,12 @@ git clone https://github.com/Luiiizks/Projeto-Healthy
 ou, para clonar apenas a versão mais recente:<br/>
 git clone --depth=1 https://github.com/Luiiizks/Projeto-Healthy
 
--Instale as extensões necessárias no VS Code:
+-Instale as extensões necessárias no VS Code:<br/>
 Após abrir o VS Code, pesquise e instale as seguintes extensões:<br/>
 
-ms-python.vscode-pylance
-ms-python.python
-batisteo.vscode-django
+ms-python.vscode-pylance<br/>
+ms-python.python<br/>
+batisteo.vscode-django<br/>
 
 -Crie um ambiente virtual executando o comando:<br/>
 python -m venv venv
