@@ -44,9 +44,12 @@ Professor: Ricardo Araujo Costa.
 
 # Entrega 02
 
+**Intruções de acesso:**
+
+-Como iniciar nossa aplicação:<br/>
+Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Após essa etapa, será possível ter acesso à 2 funcionalidades, sendo elas, o cálculo da taxa de metabolismo basal e a meta diária de água.<br/>
 **Links**:
-[**Link da nossa aplicação na Azure**](https://web-application-healthy.azurewebsites.net/) //
-[**Link do Screencast do Sistema**](https://drive.google.com/file/d/1ZtE5ZRuRasHibuyAbftTr0fqpg2i8uBV/view?usp=sharing) <br/>
+[**Link da nossa aplicação na Azure**](https://web-application-healthy.azurewebsites.net/) // [**Link do Screencast do Sistema**](https://drive.google.com/file/d/1ZtE5ZRuRasHibuyAbftTr0fqpg2i8uBV/view?usp=sharing) <br/>
 
 **Diagrama de Atividades**
 ![fds-miro](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/75cecd46-4edd-4cd7-ac51-f8bca96aaa79)
@@ -61,7 +64,7 @@ Professor: Ricardo Araujo Costa.
 ![Bug Tracker](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/6667d21d-0522-4f29-a3ef-726c50a97822)
 
 
-**Instruções de acesso:**
+**Instruções de para instalar o projeto:**
 
 Para configurar o ambiente e iniciar a aplicação, siga os passos abaixo:<br/>
 
