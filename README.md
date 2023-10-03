@@ -55,28 +55,28 @@ Professor: Ricardo Araujo Costa.
 
 **Instruções de acesso:**
 
-Para configurar o ambiente e iniciar a aplicação, siga os passos abaixo:
+Para configurar o ambiente e iniciar a aplicação, siga os passos abaixo:<br/>
 
--Clonar o repositório do projeto com o seguinte comando:
+-Clonar o repositório do projeto com o seguinte comando:<br/>
 git clone https://github.com/Luiiizks/Projeto-Healthy
 
-ou, para clonar apenas a versão mais recente:
+ou, para clonar apenas a versão mais recente:<br/>
 git clone --depth=1 https://github.com/Luiiizks/Projeto-Healthy
 
 -Instale as extensões necessárias no VS Code:
-Após abrir o VS Code, pesquise e instale as seguintes extensões:
+Após abrir o VS Code, pesquise e instale as seguintes extensões:<br/>
 
 ms-python.vscode-pylance
 ms-python.python
 batisteo.vscode-django
 
--Crie um ambiente virtual executando o comando:
+-Crie um ambiente virtual executando o comando:<br/>
 python -m venv venv
 
--Ative o ambiente virtual (para Windows) com o seguinte comando:
+-Ative o ambiente virtual (para Windows) com o seguinte comando:<br/>
 venv\Scripts\activate
 
--Instale as dependências do projeto a partir do arquivo requirements.txt:
+-Instale as dependências do projeto a partir do arquivo requirements.txt:<br/>
 pip install -r ./requirements.txt
 
 **Relato do Pair Programming**
