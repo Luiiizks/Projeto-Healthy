@@ -140,3 +140,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 ALLOWED_HOSTS = ['web-application-healthy.azurewebsites.net']
 
+CSRF_TRUSTED_ORIGINS = ['https://web-application-healthy.azurewebsites.net']
+
