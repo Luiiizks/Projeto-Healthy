@@ -53,6 +53,32 @@ Professor: Ricardo Araujo Costa.
 **Backlog do Jira**
 ![Backlog Jira](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/465ee691-a469-43a1-a60e-87a1c6890fde)
 
+**Instruções de acesso:**
+
+Para configurar o ambiente e iniciar a aplicação, siga os passos abaixo:
+
+-Clonar o repositório do projeto com o seguinte comando:
+git clone https://github.com/Luiiizks/Projeto-Healthy
+
+ou, para clonar apenas a versão mais recente:
+git clone --depth=1 https://github.com/Luiiizks/Projeto-Healthy
+
+-Instale as extensões necessárias no VS Code:
+Após abrir o VS Code, pesquise e instale as seguintes extensões:
+
+ms-python.vscode-pylance
+ms-python.python
+batisteo.vscode-django
+
+-Crie um ambiente virtual executando o comando:
+python -m venv venv
+
+-Ative o ambiente virtual (para Windows) com o seguinte comando:
+venv\Scripts\activate
+
+-Instale as dependências do projeto a partir do arquivo requirements.txt:
+pip install -r ./requirements.txt
+
 **Relato do Pair Programming**
 
 Nosso grupo teve a oportunidade de experimentar o pair programming de forma extremamente positiva e benéfica. A troca constante de conhecimento e técnicas entre os pares enriqueceu nosso repertório individual e coletivo. Essa abordagem colaborativa de desenvolvimento de software não apenas melhorou nossa eficiência, mas também promoveu benefícios significativos para nossa equipe, já que nos permitiu resolver problemas de forma mais rápida e eficaz. Um membro do par frequentemente detectava erros que o outro poderia ter perdido, resultando em código mais limpo e confiável, o que nos levou a encontrar soluções melhores para desafios complexos. <br/>
