@@ -44,7 +44,7 @@ Professor: Ricardo Araujo Costa.
 
 # Entrega 02
 
-**Deployment**:
+**Links**:
 [**Link da nossa aplicação na Azure**](https://web-application-healthy.azurewebsites.net/) //
 [**Link do Screencast do Sistema**](https://drive.google.com/file/d/1ZtE5ZRuRasHibuyAbftTr0fqpg2i8uBV/view?usp=sharing) <br/>
 
