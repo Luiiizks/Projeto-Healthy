@@ -28,7 +28,7 @@ SECRET_KEY = str(os.getenv('SECRET_KEY'))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['web-application-healthy.azurewebsites.net','127.0.0.1']
 
 
 # Application definition
@@ -125,7 +125,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+STATIC_ROOT = '/tmp/8dbc3a7666cfe93/healthy/static/'
+
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = ('static',)
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -137,8 +141,6 @@ LOGOUT_REDIRECT_URL = '/accounts/login'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-ALLOWED_HOSTS = ['web-application-healthy.azurewebsites.net']
 
 CSRF_TRUSTED_ORIGINS = ['https://web-application-healthy.azurewebsites.net']
 
