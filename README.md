@@ -44,6 +44,9 @@ Professor: Ricardo Araujo Costa.
 
 # Entrega 02
 
+**Deployment** <br/>
+Link da nossa aplicação: https://web-application-healthy.azurewebsites.net/
+
 **Diagrama de Atividades**
 ![fds-miro](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/75cecd46-4edd-4cd7-ac51-f8bca96aaa79)
 
@@ -92,7 +95,5 @@ Através do pair programming, a dupla conseguiu diminuir a quantidade de bugs no
 -->Lucca da Veiga e Luiz Flavius:<br/>
 Com o uso da técnica do pair programming, o código foi concluído de forma eficiente e minuciosa. <br/>
 
-**Deployment das histórias:**
 
-Link da nossa aplicação: https://web-application-healthy.azurewebsites.net/
 
