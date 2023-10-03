@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Calculos e Metas{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="card  auth-card">
+            <div class="card-body">
+                <h4 class="card-title text-center">Definir meta de agua</h4>
+        
+
+                <p>Digite sua meta:</p>
+                <input type="number" placeholder="exemplo: 2L"  id="metaAgua">
+                <button onclick="definirAgua()">Definir</button>
+                <p>A sua meta é: <span id="exibicaoMeta"></span></p>
+                <h3>Verificar progresso:</h3>
+                <p>Insira a quantidade de água bebida (ml):</p>
+                <input type="number" placeholder="exemplo: 250" id="quantidadeBebida">
+                <button onclick="adicionarQuantidadeBebida()">Adicionar à Quantidade Bebida</button>
+                <p>Progresso: <span id="exibicaoProgresso"></span></p>
+
+            </div>
+            <script src="{% static 'js/aguaGoals.js' %}"></script>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="card  auth-card">
+            <div class="card-body">
+                <h4 class="card-title text-center">Calculo de taxa de metabolismo basal</h4>
+          
+                <div class="flex col-md-6">
+                    <label>Selecione seu gênero:</label>
+                    <select id="genero">
+                        <option value="homem">Homem</option>
+                        <option value="mulher">Mulher</option>
+                    </select>
+                    <label>Digite sua idade:</label>
+                    <input type="number" placeholder="exemplo: 30" id="idade">
+
+                    <label>Digite seu peso (em kg):</label>
+                    <input type="number" placeholder="exemplo: 70" id="peso">
+
+                    <label>Digite sua altura (em cm):</label>
+                    <input type="number" placeholder="exemplo: 170" id="altura">
+                    
+
+                </div>
+                <button onclick="calcularTMB()">Calcular TMB</button>
+
+                <p id="mensagemTMB" style="display: none;">Sua Taxa de Metabolismo Basal é: <span id="exibicaoTMB"></span> </p>
+            
+
+
+            </div>
+            <script src="{% static 'js/basalGoals.js' %}"></script>
+        </div>
+    </div>
+</div>
+{% endblock %}
