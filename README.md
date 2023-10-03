@@ -47,23 +47,11 @@ Professor: Ricardo Araujo Costa.
 **Diagrama de Atividades**
 ![FDS - 2023 2 (1)](https://github.com/Luiiizks/Projeto-Healthy/assets/98840187/d729fd21-80ca-4370-807b-b891464da88f)
 
-**Instruções de acesso**
+**Quadro do Jira - Sprint**
+![Sprint Jira](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/01b1be9a-55a0-462f-8c66-c846fc7732f2)
 
-Clonar o repositório, instalar as dependências e iniciar a aplicação
-
-git clone https://github.com/Luiiizks/Projeto-Healthy
-
-git clone --depth=1 https://github.com/Luiiizks/Projeto-Healthy
-Instale as extenções:
-
-ms-python.vscode-pylance
-ms-python.python
-batisteo.vscode-django
-
-Criação do ambiente virtual, ativação e dependencias
-Crie usando: "python -m venv venv"
-Ative o ambiente virtual usando: "venv\Scripts\activate"
-Instale as dependencias usando "pip install -r ./requirements.txt"
+**Backlog do Jira**
+![Backlog Jira](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/465ee691-a469-43a1-a60e-87a1c6890fde)
 
 **Relato Pair Programming**
 
