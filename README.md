@@ -93,5 +93,6 @@ Através do pair programming, a dupla conseguiu diminuir a quantidade de bugs no
 Com o uso da técnica do pair programming, o código foi concluído de forma eficiente e minuciosa. <br/>
 
 **Deployment**
+
 Link da nossa aplicação: https://web-application-healthy.azurewebsites.net/
 
