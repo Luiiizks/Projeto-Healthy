@@ -47,7 +47,23 @@ Professor: Ricardo Araujo Costa.
 **Diagrama de Atividades**
 ![FDS - 2023 2 (1)](https://github.com/Luiiizks/Projeto-Healthy/assets/98840187/d729fd21-80ca-4370-807b-b891464da88f)
 
+# Instrucoes de Acesso
 
+Clonar o repositório, instalar as dependências e iniciar a aplicação
+
+git clone https://github.com/Luiiizks/Projeto-Healthy
+
+git clone --depth=1 https://github.com/Luiiizks/Projeto-Healthy
+Instale as extenções:
+
+ms-python.vscode-pylance
+ms-python.python
+batisteo.vscode-django
+
+Criação do ambiente virtual, ativação e dependencias
+Crie usando: "python -m venv venv"
+Ative o ambiente virtual usando: "venv\Scripts\activate"
+Instale as dependencias usando "pip install -r ./requirements.txt"
 
 **Relato Pair Programming**
 
