@@ -1,24 +1,24 @@
 {% extends  'base.html' %}
 {% load crispy_forms_tags %}
 
-{% block title %}Entrar{% endblock %}
+{% block title %}Register{% endblock %}
 
 {% block content %}
 <div class="row">
     <div class="col-md-4 offset-md-4">
         <div class="card  auth-card">
             <div class="card-body">
-                <h4 class="card-title text-center">Login Healthy</h4>
+                <h4 class="card-title text-center">Register Healthy</h4>
         
                 <form method="post">
                     {% csrf_token %}
                     <input type="hidden" name="next" value="{{ next }}">
         
                     {{ form|crispy }}
-                    <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+                    <button type="submit" class="btn btn-primary btn-block">Register</button>
                 </form>
 
-                <p class="change-form-p">Dont have an account?<a href="/accounts/register">Create Account</a></p>
+                <p class="change-form-p">Already have an account?<a href="/accounts/login">Login Here</a></p>
             </div>
         </div>
     </div>

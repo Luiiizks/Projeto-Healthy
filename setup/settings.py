@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'about',
     'crispy_forms',
     'crispy_bootstrap4',
+    'accounts',
 
 ]
 
@@ -136,4 +137,6 @@ LOGOUT_REDIRECT_URL = '/accounts/login'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+ALLOWED_HOSTS = ['web-application-healthy.azurewebsites.net']
 
