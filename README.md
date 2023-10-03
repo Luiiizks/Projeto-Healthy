@@ -47,7 +47,7 @@ Professor: Ricardo Araujo Costa.
 **Diagrama de Atividades**
 ![FDS - 2023 2 (1)](https://github.com/Luiiizks/Projeto-Healthy/assets/98840187/d729fd21-80ca-4370-807b-b891464da88f)
 
-# Instrucoes de Acesso
+**Instruções de acesso**
 
 Clonar o repositório, instalar as dependências e iniciar a aplicação
 
