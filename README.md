@@ -45,7 +45,7 @@ Professor: Ricardo Araujo Costa.
 # Entrega 02
 
 **Diagrama de Atividades**
-![diagramadeatv](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/3bed3d8d-50af-45fd-a5c7-fb141e0ba7b2)
+![fds-miro](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/75cecd46-4edd-4cd7-ac51-f8bca96aaa79)
 
 **Quadro do Jira - Sprint**
 ![Sprint Jira](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/01b1be9a-55a0-462f-8c66-c846fc7732f2)
