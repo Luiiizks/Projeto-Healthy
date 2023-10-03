@@ -45,7 +45,8 @@ Professor: Ricardo Araujo Costa.
 # Entrega 02
 
 **Deployment** <br/>
-Link da nossa aplicação: https://web-application-healthy.azurewebsites.net/
+[**Link da nossa aplicação na Azure**](https://web-application-healthy.azurewebsites.net/)
+[**Link do Screencast do Sistema**](https://drive.google.com/file/d/1ZtE5ZRuRasHibuyAbftTr0fqpg2i8uBV/view?usp=sharing)
 
 **Diagrama de Atividades**
 ![fds-miro](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/75cecd46-4edd-4cd7-ac51-f8bca96aaa79)
@@ -55,6 +56,10 @@ Link da nossa aplicação: https://web-application-healthy.azurewebsites.net/
 
 **Backlog do Jira**
 ![Backlog Jira](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/465ee691-a469-43a1-a60e-87a1c6890fde)
+
+**Bug Tracker**
+![Bug Tracker](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/6667d21d-0522-4f29-a3ef-726c50a97822)
+
 
 **Instruções de acesso:**
 
