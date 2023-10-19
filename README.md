@@ -7,8 +7,7 @@ O site “Healthy” é uma plataforma projetada para fornecer ao usuário uma e
 Projeto da cadeira de <b>Fundamentos De Software</b>, do segundo período de ciência da computação na CESAR School. <br/>
 Ano: 2023.2 // Turma: A <br/>
 
-**Links importantes:** [**Jira**](https://fds-cesar.atlassian.net/jira/software/projects/HEAL/boards/2) // [**Drive**](https://drive.google.com/drive/folders/1iBCM2QprI1FWM4f6AfQXnx1gVc7KUZbJ) 
-[**Instruções de como instalar o projeto:**](https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view)
+**Links importantes:** [**Jira**](https://fds-cesar.atlassian.net/jira/software/projects/HEAL/boards/2) // [**Drive**](https://drive.google.com/drive/folders/1iBCM2QprI1FWM4f6AfQXnx1gVc7KUZbJ) // [**Instruções de como instalar o projeto:**](https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view)
 
 # Contribuidores:
 
@@ -27,6 +26,7 @@ Professor: Ricardo Araujo Costa.
 
 # Entrega 01
 <hr>
+
 ## Backlog do Jira
 ![jira-backlog](https://github.com/Luiiizks/Projeto-FDS/assets/98840187/f66b07f9-a9d1-4651-bf0f-ab73c68d3987)
 
@@ -37,8 +37,10 @@ Professor: Ricardo Araujo Costa.
 [**Protótipos Lo-Fi**](https://www.figma.com/file/PIuWUbePnvkrIQYNdAbEzt/fds?type=design&node-id=0-1&mode=design&t=abkDhZbpuhEPAxAU-0) //
 [**Screencast**](https://drive.google.com/file/d/1jpGMLBfzb3DUeeEWV57G-Mo9xKpQb0GF/view?usp=drive_link) <br/>
 <hr>
+
 # Entrega 02
 <hr>
+
 **Intruções de acesso:**
 
 -Como iniciar nossa aplicação:<br/>
@@ -58,41 +60,12 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 ## Bug Tracker
 ![Bug Tracker](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/6667d21d-0522-4f29-a3ef-726c50a97822)
 
-
 ### Relato de Pair Programming
 [**Relato De Pair Programming: Link para o Drive**](https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view)
+<hr>
 
 # Entrega 03
-<hr>
-- Implementar mais 3 histórias
 
-- Atualização dos protótipos de Lo-Fi<br>
-Sketches e storyboards para as novas histórias<br>
-Novo **screencast** (ênfase nas novas histórias) ao README
-
-- Atualização do diagrama de atividades e refazer o da entrega 2
-  
-- Commits semanais
-  
-- Deployment das novas histórias<br>
-Novo **screencast** (ênfase nas novas histórias) ao README
-
-- Issue/bug tracker atualizado (no GitHub) com no mínimo 4 bugs<br>
-Adicionar print da tela ao README
-
-- CI/CD com build e deployment automatizado (ver oq é isso)<br>
-Pipeline criada no Github (ver oq é)<br>
-Adicionar **screencast** do processo de build e deployment ao README
-
-- Testes de Sistema (E2E) Automatizados (ver oq é)
-Adicionar **screencast** da execução dos testes ao README
-
-- Atualização do PAIR PROGRAMMING<br>
-Incremente ao relato anterior
-
-- Quadro da Sprint 02 atualizado refletindo a entrega<br>
-Adicionar print do quadro da sprint ao README
-<hr>
 
 
 
