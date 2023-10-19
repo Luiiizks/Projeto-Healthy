@@ -9,7 +9,7 @@ Ano: 2023.2 // Turma: A <br/>
 
 **Links importantes:** [**Jira**](https://fds-cesar.atlassian.net/jira/software/projects/HEAL/boards/2) // [**Drive**](https://drive.google.com/drive/folders/1iBCM2QprI1FWM4f6AfQXnx1gVc7KUZbJ) 
 
-## Contribuidores:
+# Contribuidores:
 
 | <img src="https://github.com/xjuveri.png" alt="Imagem de perfil do xjuveri" style="border-radius: 50%; border: 1px solid #000; width: 100px; height: 100px;"> | <img src="https://github.com/Luketam.png" alt="Imagem de perfil de Lucca" width="100" height="100"> | <img src="https://github.com/Luiiizks.png" alt="Imagem de perfil do Luiiizks" width="100" height="100"> | <img src="https://github.com/Malucoimbr.png" alt="Imagem de perfil do Malucoimbr" width="100" height="100"> | <img src="https://github.com/LuizaCalife.png" alt="Imagem de perfil do LuizaCalife" width="100" height="100"> | <img src="https://github.com/mihlamonteiro.png" alt="Imagem de perfil do mihlamonteiro" width="100" height="100"> |
 | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
@@ -58,9 +58,36 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 ## Bug Tracker
 ![Bug Tracker](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/6667d21d-0522-4f29-a3ef-726c50a97822)
 
-#Entrega 03
+# Entrega 03
 
-(coisas)
+-Implementar mais 3 histórias
+
+- Atualização dos protótipos de Lo-Fi<br>
+Sketches e storyboards para as novas histórias<br>
+Novo **screencast** (ênfase nas novas histórias) ao README
+
+- Atualização do diagrama de atividades e refazer o da entrega 2
+  
+- Commits semanais
+  
+- Deployment das novas histórias<br>
+Novo **screencast** (ênfase nas novas histórias) ao README
+
+- Issue/bug tracker atualizado (no GitHub) com no mínimo 4 bugs<br>
+Adicionar print da tela ao README
+
+- CI/CD com build e deployment automatizado (ver oq é isso)<br>
+Pipeline criada no Github (ver oq é)<br>
+Adicionar **screencast** do processo de build e deployment ao README
+
+- Testes de Sistema (E2E) Automatizados (ver oq é)
+Adicionar **screencast** da execução dos testes ao README
+
+- Atualização do PAIR PROGRAMMING<br>
+Incremente ao relato anterior
+
+- Quadro da Sprint 02 atualizado refletindo a entrega<br>
+Adicionar print do quadro da sprint ao README
 
 ### Mais informações:
 
