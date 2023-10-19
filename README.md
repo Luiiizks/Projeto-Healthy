@@ -23,9 +23,9 @@ Maria Luiza Calife - mlcdf@cesar.school <br/>
 Mirna Lustosa - mlam@cesar.school <br/>
   
 Professor: Ricardo Araujo Costa.
+<hr>
 
 # Entrega 01
-<hr>
 
 ## Backlog do Jira
 ![jira-backlog](https://github.com/Luiiizks/Projeto-FDS/assets/98840187/f66b07f9-a9d1-4651-bf0f-ab73c68d3987)
@@ -39,7 +39,6 @@ Professor: Ricardo Araujo Costa.
 <hr>
 
 # Entrega 02
-<hr>
 
 ## Intruções de acesso:
 
@@ -60,17 +59,9 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 ## Bug Tracker
 ![Bug Tracker](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/6667d21d-0522-4f29-a3ef-726c50a97822)
 
-### Relato de Pair Programming
+## Relato de Pair Programming
 [**Relato De Pair Programming: no drive**](https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view)
 <hr>
 
 # Entrega 03
-<hr>
-
-
-
-
-
-
-
 
