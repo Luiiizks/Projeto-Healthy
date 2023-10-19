@@ -41,7 +41,7 @@ Professor: Ricardo Araujo Costa.
 # Entrega 02
 <hr>
 
-**Intruções de acesso:**
+## Intruções de acesso:
 
 -Como iniciar nossa aplicação:<br/>
 Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Após essa etapa, será possível ter acesso à 2 funcionalidades, sendo elas, o cálculo da taxa de metabolismo basal e a meta diária de água.<br/>
@@ -61,10 +61,11 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 ![Bug Tracker](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/6667d21d-0522-4f29-a3ef-726c50a97822)
 
 ### Relato de Pair Programming
-[**Relato De Pair Programming: Link para o Drive**](https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view)
+[**Relato De Pair Programming: no drive**](https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view)
 <hr>
 
 # Entrega 03
+<hr>
 
 
 
