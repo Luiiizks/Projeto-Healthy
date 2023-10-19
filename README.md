@@ -8,6 +8,7 @@ Projeto da cadeira de <b>Fundamentos De Software</b>, do segundo período de ci�
 Ano: 2023.2 // Turma: A <br/>
 
 **Links importantes:** [**Jira**](https://fds-cesar.atlassian.net/jira/software/projects/HEAL/boards/2) // [**Drive**](https://drive.google.com/drive/folders/1iBCM2QprI1FWM4f6AfQXnx1gVc7KUZbJ) 
+[**Instruções de como instalar o projeto:**](https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view)
 
 # Contribuidores:
 
@@ -57,18 +58,9 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 ## Bug Tracker
 ![Bug Tracker](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/6667d21d-0522-4f29-a3ef-726c50a97822)
 
-## Pair Programming:
 
-Nosso grupo teve a oportunidade de experimentar o pair programming de forma extremamente positiva e benéfica. A troca constante de conhecimento e técnicas entre os pares enriqueceu nosso repertório individual e coletivo. Essa abordagem colaborativa de desenvolvimento de software não apenas melhorou nossa eficiência, mas também promoveu benefícios significativos para nossa equipe, já que nos permitiu resolver problemas de forma mais rápida e eficaz. Um membro do par frequentemente detectava erros que o outro poderia ter perdido, resultando em código mais limpo e confiável, o que nos levou a encontrar soluções melhores para desafios complexos. <br/>
-
--->Júlia Veríssimo e Maria Luísa Coimbra:<br/>
-Com a ajuda do pair programming, distrações foram otimizadas e a produtividade da dupla aumentou, resultando em um código bem trabalhado. <br/>
-
--->Mirna Lustosa e Maria Luiza Calife:<br/>
-Através do pair programming, a dupla conseguiu diminuir a quantidade de bugs no código de maneira rápida e eficaz, resultando em um código limpo. <br/>
-
--->Lucca da Veiga e Luiz Flavius:<br/>
-Com o uso da técnica do pair programming, o código foi concluído de forma eficiente e minuciosa. <hr>
+### Relato de Pair Programming
+[**Relato De Pair Programming: Link para o Drive**](https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view)
 
 # Entrega 03
 <hr>
@@ -101,31 +93,10 @@ Incremente ao relato anterior
 - Quadro da Sprint 02 atualizado refletindo a entrega<br>
 Adicionar print do quadro da sprint ao README
 <hr>
-### Mais informações:
 
-**Instruções de como instalar o projeto:**
 
-Para configurar o ambiente e iniciar a aplicação, siga os passos abaixo:<br/>
 
--Clonar o repositório do projeto com o seguinte comando:<br/>
-git clone https://github.com/Luiiizks/Projeto-Healthy
 
-ou, para clonar apenas a versão mais recente:<br/>
-git clone --depth=1 https://github.com/Luiiizks/Projeto-Healthy
 
--Instale as extensões necessárias no VS Code:<br/>
-Após abrir o VS Code, pesquise e instale as seguintes extensões:<br/>
 
-ms-python.vscode-pylance<br/>
-ms-python.python<br/>
-batisteo.vscode-django<br/>
-
--Crie um ambiente virtual executando o comando:<br/>
-python -m venv venv
-
--Ative o ambiente virtual (para Windows) com o seguinte comando:<br/>
-venv\Scripts\activate
-
--Instale as dependências do projeto a partir do arquivo requirements.txt:<br/>
-pip install -r ./requirements.txt
 
