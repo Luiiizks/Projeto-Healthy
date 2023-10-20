@@ -1,11 +1,52 @@
-from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.contrib.auth.decorators import login_required
 
-from django.contrib.auth.forms import UserCreationForm
-from django.urls import reverse_lazy
-from django.views import generic
+from .models import WaterGoal, WeightGoal
 
-# Create your views here.
+@login_required
+def water_goal(request):
+    if request.method == "POST":
+        liters = request.POST["liters"]
+        water_goal = WaterGoal.objects.filter(user=request.user).first()
+        if water_goal is not None:
+            water_goal.liters = liters
+            water_goal.save()
+        return redirect("water_goal")
+
+    user_water_goal = WaterGoal.objects.filter(user=request.user).first()
+
+    return render(request, "goals/water_goal.html", {
+        "water_goal": user_water_goal
+    })
+
+def goal(request):
+    return render(request, "goals/goals.html")
+
+@login_required
+def weight_goal(request):
+    if request.method == "POST":
+        weight = request.POST["weight"]
+
+        # Verifica se o usuário já tem uma meta de peso definida
+        weight_goal = WeightGoal.objects.filter(user=request.user).first()
+
+        # Se o usuário já tiver uma meta de peso definida, atualize-a
+        if weight_goal is not None:
+            weight_goal.weight = weight
+            weight_goal.save()
+
+        # Se o usuário não tiver uma meta de peso definida, crie uma nova
+        else:
+            weight_goal = WeightGoal(user=request.user, weight=weight)
+            weight_goal.save()
+
+        return redirect("/goals/weight_goal/")
+
+    user_weight_goal = WeightGoal.objects.filter(user=request.user).first()
+
+    return render(request, "goals/weight_goal.html", {
+        "weight_goal": user_weight_goal
+    })
 
 def goals(request):
-    return render(request, 'goals/goals.html')
+    return render(request, "goals/goals.html")
