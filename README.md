@@ -17,9 +17,9 @@ Ano: 2023.2 // Turma: A <br/>
 
 Júlia Veríssimo - jov@cesar.school <br/>
 Lucca da Veiga - lvg2@cesar.school <br/>
-Luiz Flavius Veras - lfvsf@cesar.school <br/>
-Maria Luisa Coimbra - mlcl@cesar.school <br/>
-Maria Luiza Calife - mlcdf@cesar.school <br/>
+Luiz Flavius - lfvsf@cesar.school <br/>
+Luisa Coimbra - mlcl@cesar.school <br/>
+Luiza Calife - mlcdf@cesar.school <br/>
 Mirna Lustosa - mlam@cesar.school <br/>
   
 Professor: Ricardo Araujo Costa.
@@ -44,7 +44,7 @@ Professor: Ricardo Araujo Costa.
 
 -Como iniciar nossa aplicação:<br/>
 Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Após essa etapa, será possível ter acesso à 2 funcionalidades, sendo elas, o cálculo da taxa de metabolismo basal e a meta diária de água.<br/>
-**Links**:
+## Links: 
 [**Link da nossa aplicação na Azure**](https://web-application-healthy.azurewebsites.net/) // [**Link do Screencast do Sistema**](https://drive.google.com/file/d/1ZtE5ZRuRasHibuyAbftTr0fqpg2i8uBV/view?usp=sharing) <br/>
 
 ## Diagrama de Atividades
@@ -60,7 +60,7 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 ![Bug Tracker](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/6667d21d-0522-4f29-a3ef-726c50a97822)
 
 ## Relato de Pair Programming
-[**Relato De Pair Programming: no drive**](https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view)
+[**Relato de pair programming (drive)**](https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view)
 <hr>
 
 # Entrega 03
