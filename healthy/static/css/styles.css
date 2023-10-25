@@ -9,7 +9,7 @@
 /* Navbar */
 
 .navbar {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #36463f;
     margin-bottom: 20px;
 
 }
@@ -20,18 +20,37 @@
 
 .navbar-brand {
     font-weight: bold;
+    font-size: 30px;
+    padding-left: 35px;
+    color: #36463f;
 }
 
 .navbar-light .navbar-nav a.nav-link {
-    color: #333;
+    color: #292828;
     letter-spacing: 1px;
+    font-size: 20px;
 }
 
+/*carrosel home*/
 
+.carousel-item.active {
+    display: flex;
+    flex-direction: column; /* Define a direção do flex container */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    height: 100%; /* Ocupa a altura da div pai */
+    width: 100%;  /* Ocupa a largura da div pai */
+}
+
+.imagem {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
 /* Rodapé */
 
 footer {
-    background-color: #333;
+    background-color: #54645c;
     height: 300px;
     border-top: 2px solid #202020;
 
@@ -48,4 +67,20 @@ footer p {
 
 .auth-card {
     margin-bottom: 30px;
+}
+/*home*/
+.textoHome{
+   align-items: center;
+   padding-top: 100px;
+}
+.h2Home{
+    display: flex;
+    color: #294e71;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mulher{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 }
