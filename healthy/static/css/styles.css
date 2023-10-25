@@ -8,7 +8,18 @@
 
 /* Navbar */
 
-.navbar {
+#exercicios-dropdown .dropdown-menu {
+    display: none;
+  }
+  
+  #exercicios-dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  
+  
+
+/* .navbar {
     border-bottom: 1px solid #36463f;
     margin-bottom: 20px;
 
@@ -29,7 +40,7 @@
     color: #292828;
     letter-spacing: 1px;
     font-size: 20px;
-}
+} */
 
 /*carrosel home*/
 
