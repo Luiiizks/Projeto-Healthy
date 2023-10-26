@@ -1,0 +1,15 @@
+{% extends  'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block title %}Dias da senana{% endblock %}
+
+{% block content %}
+    <h1>{{ treino.dia_da_semana }}</h1>
+    <form action="{% url 'treino:salvar' dia_semana=treino.dia_da_semana %}" method="post">
+        {% csrf_token %}
+        <textarea name="texto">{{ treino.texto }}</textarea>
+        <input type="submit" value="Salvar">
+        <input type="submit" value="Editar" name="editar">
+    </form>
+{% endblock %}
