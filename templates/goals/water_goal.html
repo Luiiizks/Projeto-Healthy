@@ -1,19 +1,21 @@
-{% extends "base.html" %}
-{% load static %}
-{% block title %}Meta Agua{% endblock %}
-{% block content %}
-    <h1>Meta de água</h1>
-    {% if water_goal %}
-        <p>Você definiu uma meta de {{ water_goal.liters }} litros de água.</p>
-        <a href="{% url 'water_goal' %}">Editar meta</a>
-    {% else %}
-        <p>Você ainda não definiu uma meta de água.</p>
-        <a href="{% url 'water_goal' %}">Definir meta</a>
-    {% endif %}
-    {% csrf_token %}
-    <form action="{% url 'water_goal' %}" method="post">
-        {% csrf_token %}
-        <input type="number" name="liters" id="liters" placeholder="Meta de água (litros)">
-        <input type="submit" value="Salvar">
-    </form>
+{% extends "base.html" %} {% load static %} {% block title %}Meta Agua{%
+endblock %} {% block content %}
+<h1>Meta de água</h1>
+{% if water_goal %}
+<p>Você definiu uma meta de {{ water_goal.liters }} litros de água.</p>
+<a href="{% url 'water_goal' %}">Editar meta</a>
+{% else %}
+<p>Você ainda não definiu uma meta de água.</p>
+<a href="{% url 'water_goal' %}">Definir meta</a>
+{% endif %} {% csrf_token %}
+<form action="{% url 'water_goal' %}" method="post">
+  {% csrf_token %}
+  <input
+    type="number"
+    name="liters"
+    id="liters"
+    placeholder="Meta de água (litros)"
+  />
+  <input type="submit" value="Salvar" />
+</form>
 {% endblock %}
