@@ -2,18 +2,29 @@
 {% load static %}
 {% block title %}Meta de Peso{% endblock %}
 {% block content %}
+<link rel="stylesheet" href="{% static 'css/metas.css' %}">
+<div class="containerGeral">
+    <div class="container">
     <h1>Meta de peso</h1>
     {% if weight_goal %}
+    <div>
         <p>Sua meta de peso é de {{ weight_goal.weight }} kg.</p>
-        <a href="{% url 'weight_goal' %}">Editar meta</a>
+        <p>Editar meta:</p>
+    </div>
     {% else %}
+    <div>
         <p>Você ainda não definiu uma meta de peso.</p>
-        <a href="{% url 'weight_goal' %}">Definir meta</a>
+        <p>Definir meta:</p>
+    </div>
     {% endif %}
     {% csrf_token %}
+    <div>
     <form action="{% url 'weight_goal' %}" method="post">
         {% csrf_token %}
-        <input type="float" name="weight" id="weight" placeholder="Meta de peso (kg)">
-        <input type="submit" value="Salvar">
+        <input class="input"type="float" name="weight" id="weight" placeholder="Meta de peso (kg)">
+        <input class="salvar"type="submit" value="Salvar">
     </form>
+    </div>
+    </div>
+    </div>
 {% endblock %}
