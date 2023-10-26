@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Editar Treino - {{ treino.dia_da_semana }}{% endblock %}
+
+{% block content %}
+  <h1>Editar Treino - {{ treino.dia_da_semana }}</h1>
+  <form method="post">
+    {% csrf_token %}
+    <label for="texto">Texto do Treino:</label>
+    <textarea id="texto" name="texto">{{ treino.texto }}</textarea>
+    <br>
+    <input type="submit" value="Salvar">
+    <a href="{% url 'treino:index' %}">Cancelar</a>
+  </form>
+{% endblock %}

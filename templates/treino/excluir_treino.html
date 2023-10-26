@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Excluir Treino - {{ treino.dia_da_semana }}{% endblock %}
+
+{% block content %}
+  <h1>Excluir Treino - {{ treino.dia_da_semana }}</h1>
+  <p>Tem certeza de que deseja excluir este treino?</p>
+  <form method="post">
+    {% csrf_token %}
+    <input type="submit" value="Sim, Excluir">
+    <a href="{% url 'treino:index' %}">Cancelar</a>
+  </form>
+{% endblock %}
