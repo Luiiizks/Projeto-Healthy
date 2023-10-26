@@ -49,22 +49,35 @@ body{
     font-size: 20px;
 } */
 
-/*carrosel home*/
-
-.carousel-item.active {
+/*banner home*/
+.container-banner {
     display: flex;
-    flex-direction: column; /* Define a direção do flex container */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
-    height: 100%; /* Ocupa a altura da div pai */
-    width: 100%;  /* Ocupa a largura da div pai */
-}
+  }
+  
+  .imagem {
+    flex: 1; 
+  }
 
-.imagem {
+  .img-banner{
+    width: 90%;
+    padding: 40px;
+  }
+  .text-banner{
+    padding: 40px;
+    font-size: 40px;
+    color: rgb(77, 182, 103);
+    font-weight: 700;
+  }
+  .texto {
+    width: 50%; 
     display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
-}
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  
+  
+  
 /* Rodapé */
 
 footer {
@@ -93,12 +106,29 @@ footer p {
 }
 .h2Home{
     display: flex;
-    color: #294e71;
+    font-size: 40px;
+    color: rgb(77, 182, 103);
+    font-weight: 700;
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
 }
+.container-box-news {
+    background-color: rgb(188, 230, 143);
+    width: 700px;
+    display: flex;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    align-items: center;
+    padding-top: 20px; /* Centraliza verticalmente */
+    border-radius: 20px;
+  }
+.boxes-new {
+    display: flex;
+    flex-direction: column; /* Para alinhar o conteúdo verticalmente */
+    padding: 40px;
+  }
 .mulher{
     display: flex;
     justify-content: center;
     padding-top: 50px;
+    padding-bottom: 90px;
 }
