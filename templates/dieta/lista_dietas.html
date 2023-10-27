@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Excluir Treino - {{ treino.dia_da_semana }}{% endblock %}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Dietas</title>
+</head>
+<body>
+    <h1>Minhas Dietas</h1>
+    <ul>
+        {% for dieta in dietas %}
+            <li>
+                <a href="{% url 'editar_dieta' dieta.id %}">Editar</a> |
+                <a href="{% url 'excluir_dieta' dieta.id %}">Excluir</a> |
+                Dieta: {{ dieta.notas }} ({{ dieta.calorias }} calorias)
+            </li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'criar_dieta' %}">Criar Nova Dieta</a>
+</body>
+</html>
+
+{% endblock %}

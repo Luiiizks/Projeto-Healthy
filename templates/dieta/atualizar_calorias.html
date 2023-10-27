@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Excluir Treino - {{ treino.dia_da_semana }}{% endblock %}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Atualizar Calorias</title>
+</head>
+<body>
+    <h1>Atualizar Calorias da Dieta</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="calorias">Calorias:</label>
+        <input type="number" name="calorias" value="{{ dieta.calorias }}">
+        <input type="submit" value="Atualizar">
+    </form>
+    <a href="{% url 'lista_dietas' %}">Voltar para a lista de dietas</a>
+</body>
+</html>
+{% endblock %}
