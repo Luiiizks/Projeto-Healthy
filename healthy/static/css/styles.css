@@ -22,11 +22,7 @@ body{
   #exercicios-dropdown:hover .dropdown-menu {
     display: block;
   }
-  
-  
-  
-
-/* .navbar {
+.navbar {
     border-bottom: 1px solid #36463f;
     margin-bottom: 20px;
 
@@ -47,7 +43,7 @@ body{
     color: #292828;
     letter-spacing: 1px;
     font-size: 20px;
-} */
+}
 
 /*banner home*/
 .container-banner {
