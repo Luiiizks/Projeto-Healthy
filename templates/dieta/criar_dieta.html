@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block title %}Excluir Treino - {{ treino.dia_da_semana }}{% endblock %}
+{% block title %}Criar Dieta{% endblock %}
 
 {% block content %}
 <!DOCTYPE html>
@@ -15,7 +15,7 @@
         {{ form.as_p }}
         <input type="submit" value="Salvar Dieta">
     </form>
-    <a href="{% url 'lista_dietas' %}">Voltar para a lista de dietas</a>
+    <a href="{% url 'dieta:lista_dietas' %}">Voltar para a lista de dietas</a>
 </body>
 </html>
 {% endblock %}

@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block title %}Excluir Treino - {{ treino.dia_da_semana }}{% endblock %}
+{% block title %}Excluir Dieta{% endblock %}
 
 {% block content %}
 <!DOCTYPE html>
@@ -13,13 +13,13 @@
     <ul>
         {% for dieta in dietas %}
             <li>
-                <a href="{% url 'editar_dieta' dieta.id %}">Editar</a> |
-                <a href="{% url 'excluir_dieta' dieta.id %}">Excluir</a> |
-                Dieta: {{ dieta.notas }} ({{ dieta.calorias }} calorias)
+                <a href="{% url 'dieta:editar_dieta' dieta.id %}">Editar</a> |
+                <a href="{% url 'dieta:excluir_dieta' dieta.id %}" onclick="return confirm('Are you sure you want to delete this dieta?')">Excluir</a> |
+                Dieta: {{ dieta.titulo }} ({{ dieta.calorias }} calorias)
             </li>
         {% endfor %}
     </ul>
-    <a href="{% url 'criar_dieta' %}">Criar Nova Dieta</a>
+    <a href="{% url 'dieta:criar_dieta' %}">Criar Nova Dieta</a>
 </body>
 </html>
 

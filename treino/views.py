@@ -5,8 +5,6 @@ from django.contrib.auth.decorators import login_required
 
 @login_required
 def index(request):
-    # Crie um dicionário onde as chaves são os dias da semana
-    # e os valores são os treinos (ou None se não houver treino).
     treinos = {
         'segunda': None,
         'terça': None,
@@ -17,7 +15,6 @@ def index(request):
         'domingo': None
     }
 
-    # Preencha o dicionário com os treinos existentes para o usuário.
     treinos_existentes = Treino.objects.filter(usuario=request.user)
     for treino in treinos_existentes:
         treinos[treino.dia_da_semana] = treino
@@ -81,24 +78,11 @@ def salvar_treino(request, dia_semana=None):
             except Treino.DoesNotExist:
                 treino = Treino(dia_da_semana=dia_semana, texto=texto, usuario=request.user)
         else:
-            # Lógica para criar um novo treino, por exemplo, escolher um dia da semana.
             pass
 
         treino.save()
         return redirect('treino:index')
     else:
-        # Lógica para lidar com solicitações GET para salvar_treino, se necessário.
-        # Geralmente, você pode redirecionar o usuário de volta à página inicial ou fazer algo apropriado.
         return redirect('treino:index')
     
     
-# def dia(request, dia_da_semana):
-#     treino = Treino(dia_da_semana=dia_da_semana)
-#     treino.usuario = request.user
-
-#     if request.method == 'POST':
-#         treino.texto = request.POST['texto']
-#         treino.save()
-#         return redirect('treino:index')
-
-#     return render(request, 'treino/dia.html', {'treino': treino})

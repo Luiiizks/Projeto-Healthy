@@ -11,7 +11,10 @@ def water_goal(request):
         if water_goal is not None:
             water_goal.liters = liters
             water_goal.save()
-        return redirect("water_goal")
+        else:
+            water_goal = WaterGoal(user=request.user, liters=liters)
+            water_goal.save()
+        return redirect("/goals/water_goal/")
 
     user_water_goal = WaterGoal.objects.filter(user=request.user).first()
 
@@ -19,7 +22,8 @@ def water_goal(request):
         "water_goal": user_water_goal
     })
 
-def goal(request):
+
+def goals(request):
     return render(request, "goals/goals.html")
 
 @login_required
@@ -47,6 +51,3 @@ def weight_goal(request):
     return render(request, "goals/weight_goal.html", {
         "weight_goal": user_weight_goal
     })
-
-def goals(request):
-    return render(request, "goals/goals.html")

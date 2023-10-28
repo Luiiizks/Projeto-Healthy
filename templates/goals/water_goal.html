@@ -21,7 +21,7 @@
     <div>
     <form action="{% url 'water_goal' %}" method="post">
         {% csrf_token %}
-        <input class="input" type="number" name="liters" id="liters" placeholder="Meta de água (litros)">
+        <input class="input" type="float" name="liters" id="liters" placeholder="Meta de água (litros)">
         <input class="salvar"type="submit" value="Salvar">
     </form>
 </div>

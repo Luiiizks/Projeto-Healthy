@@ -11,7 +11,7 @@ def criar_dieta(request):
             dieta = form.save(commit=False)
             dieta.user = request.user
             dieta.save()
-            return redirect('lista_dietas')
+            return redirect('dieta:lista_dietas')
     else:
         form = DietaForm()
     return render(request, 'dieta/criar_dieta.html', {'form': form})
@@ -23,7 +23,7 @@ def editar_dieta(request, dieta_id):
         form = DietaForm(request.POST, instance=dieta)
         if form.is_valid():
             form.save()
-            return redirect('lista_dietas')
+            return redirect('dieta:lista_dietas')
     else:
         form = DietaForm(instance=dieta)
     return render(request, 'dieta/editar_dieta.html', {'form': form})
@@ -31,7 +31,7 @@ def editar_dieta(request, dieta_id):
 @login_required
 def excluir_dieta(request, dieta_id):
     Dieta.objects.filter(pk=dieta_id).delete()
-    return redirect('lista_dietas')
+    return redirect('dieta:lista_dietas')
 
 @login_required
 def atualizar_calorias(request, dieta_id):
@@ -39,7 +39,7 @@ def atualizar_calorias(request, dieta_id):
     if request.method == 'POST':
         dieta.calorias = int(request.POST.get('calorias'))
         dieta.save()
-    return redirect('lista_dietas')
+    return redirect('doeta:lista_dietas')
 
 @login_required
 def lista_dietas(request):

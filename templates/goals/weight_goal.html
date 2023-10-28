@@ -19,11 +19,11 @@
     {% endif %}
     {% csrf_token %}
     <div>
-    <form action="{% url 'weight_goal' %}" method="post">
-        {% csrf_token %}
-        <input class="input"type="float" name="weight" id="weight" placeholder="Meta de peso (kg)">
-        <input class="salvar"type="submit" value="Salvar">
-    </form>
+        <form action="{% url 'weight_goal' %}" method="post">
+            {% csrf_token %}
+            <input class="input" type="float" name="weight" id="weight" placeholder="Meta de peso (kg)">
+            <input class="salvar" type="submit" value="Salvar">
+        </form>
     </div>
     </div>
     </div>
