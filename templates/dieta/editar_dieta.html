@@ -3,19 +3,20 @@
 {% block title %}Editar Dieta{% endblock %}
 
 {% block content %}
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Editar Dieta</title>
-</head>
-<body>
-    <h1>Editar Dieta</h1>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <input type="submit" value="Salvar Alterações">
-    </form>
-    <a href="{% url 'dieta:lista_dietas' %}">Voltar para a lista de dietas</a>
-</body>
-</html>
+<h1>Editar Dieta</h1>
+<link rel="stylesheet" href="{% static 'css/dieta.css' %}">
+<form method="post">
+    {% csrf_token %}
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo" name="titulo" value="{{ dieta.titulo }}" class="titulo-input" required>
+    <br>
+    <label for="notas">Notas:</label>
+    <textarea id="notas" name="notas" class="notas-input" rows="4" cols="50" required>{{ dieta.notas }}</textarea>
+    <br>
+    <label for="calorias">Calorias:</label>
+    <input type="number" id="calorias" name="calorias" value="{{ dieta.calorias }}" required>
+    <br>
+    <input type="submit" value="Salvar Alterações">
+</form>
+<a href="{% url 'dieta:lista_dietas' %}">Voltar para a lista de dietas</a>
 {% endblock %}

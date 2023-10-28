@@ -1,26 +1,17 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block title %}Excluir Dieta{% endblock %}
+{% block title %}Lista de Dietas{% endblock %}
 
 {% block content %}
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Lista de Dietas</title>
-</head>
-<body>
-    <h1>Minhas Dietas</h1>
-    <ul>
-        {% for dieta in dietas %}
-            <li>
-                <a href="{% url 'dieta:editar_dieta' dieta.id %}">Editar</a> |
-                <a href="{% url 'dieta:excluir_dieta' dieta.id %}" onclick="return confirm('Are you sure you want to delete this dieta?')">Excluir</a> |
-                Dieta: {{ dieta.titulo }} ({{ dieta.calorias }} calorias)
-            </li>
-        {% endfor %}
-    </ul>
-    <a href="{% url 'dieta:criar_dieta' %}">Criar Nova Dieta</a>
-</body>
-</html>
-
+<h1>Minhas Dietas</h1>
+<ul>
+    {% for dieta in dietas %}
+        <li>
+            <a href="{% url 'dieta:editar_dieta' dieta.id %}">Editar</a> |
+            <a href="{% url 'dieta:excluir_dieta' dieta.id %}" onclick="return confirm('Tem certeza que deseja excluir esta dieta?')">Excluir</a> |
+            Refeições: {{ dieta.titulo }}, possui ({{ dieta.calorias }} calorias)
+        </li>
+    {% endfor %}
+</ul>
+<a href="{% url 'dieta:criar_dieta' %}">Criar Nova Dieta</a>
 {% endblock %}

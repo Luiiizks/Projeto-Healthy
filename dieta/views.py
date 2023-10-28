@@ -1,45 +1,76 @@
 from django.shortcuts import render, redirect
 from .models import Dieta
-from .forms import DietaForm
 from django.contrib.auth.decorators import login_required
+from django.http import HttpResponseBadRequest
 
 @login_required
 def criar_dieta(request):
     if request.method == 'POST':
-        form = DietaForm(request.POST)
-        if form.is_valid():
-            dieta = form.save(commit=False)
-            dieta.user = request.user
-            dieta.save()
-            return redirect('dieta:lista_dietas')
-    else:
-        form = DietaForm()
-    return render(request, 'dieta/criar_dieta.html', {'form': form})
+        titulo = request.POST.get('titulo')
+        notas = request.POST.get('notas')
+        calorias = request.POST.get('calorias')
+
+        if not titulo or not notas or not calorias:
+            return HttpResponseBadRequest("Campos em branco não são permitidos.")
+
+        Dieta.objects.create(user=request.user, titulo=titulo, notas=notas, calorias=calorias)
+        return redirect('dieta:lista_dietas')
+    return render(request, 'dieta/criar_dieta.html')
 
 @login_required
 def editar_dieta(request, dieta_id):
-    dieta = Dieta.objects.get(pk=dieta_id)
+    try:
+        dieta = Dieta.objects.get(pk=dieta_id, user=request.user)
+    except Dieta.DoesNotExist:
+        return HttpResponseBadRequest("Dieta não encontrada.")
+
     if request.method == 'POST':
-        form = DietaForm(request.POST, instance=dieta)
-        if form.is_valid():
-            form.save()
-            return redirect('dieta:lista_dietas')
+        titulo = request.POST.get('titulo')
+        notas = request.POST.get('notas')
+        calorias = request.POST.get('calorias')
+
+        if not titulo or not notas or not calorias:
+            return HttpResponseBadRequest("Campos em branco não são permitidos.")
+
+        dieta.titulo = titulo
+        dieta.notas = notas
+        dieta.calorias = calorias
+        dieta.save()
+        return redirect('dieta:lista_dietas')
     else:
-        form = DietaForm(instance=dieta)
-    return render(request, 'dieta/editar_dieta.html', {'form': form})
+        # Preencha o contexto com os valores existentes da dieta
+        context = {
+            'dieta': dieta,
+        }
+        return render(request, 'dieta/editar_dieta.html', context)
 
 @login_required
 def excluir_dieta(request, dieta_id):
-    Dieta.objects.filter(pk=dieta_id).delete()
+    try:
+        dieta = Dieta.objects.get(pk=dieta_id, user=request.user)
+    except Dieta.DoesNotExist:
+        return HttpResponseBadRequest("Dieta não encontrada.")
+
+    dieta.delete()
     return redirect('dieta:lista_dietas')
 
 @login_required
 def atualizar_calorias(request, dieta_id):
-    dieta = Dieta.objects.get(pk=dieta_id)
+    try:
+        dieta = Dieta.objects.get(pk=dieta_id, user=request.user)
+    except Dieta.DoesNotExist:
+        return HttpResponseBadRequest("Dieta não encontrada.")
+
     if request.method == 'POST':
-        dieta.calorias = int(request.POST.get('calorias'))
+        calorias = request.POST.get('calorias')
+
+        if not calorias:
+            return HttpResponseBadRequest("Campo em branco não é permitido.")
+
+        dieta.calorias = calorias
         dieta.save()
-    return redirect('doeta:lista_dietas')
+
+    return redirect('dieta:lista_dietas')
 
 @login_required
 def lista_dietas(request):
