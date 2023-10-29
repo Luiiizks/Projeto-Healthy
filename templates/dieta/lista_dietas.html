@@ -1,17 +1,69 @@
 {% extends 'base.html' %}
-{% load static %}
 {% block title %}Lista de Dietas{% endblock %}
-
 {% block content %}
-<h1>Minhas Dietas</h1>
-<ul>
-    {% for dieta in dietas %}
-        <li>
-            <a href="{% url 'dieta:editar_dieta' dieta.id %}">Editar</a> |
-            <a href="{% url 'dieta:excluir_dieta' dieta.id %}" onclick="return confirm('Tem certeza que deseja excluir esta dieta?')">Excluir</a> |
-            Refeições: {{ dieta.titulo }}, possui ({{ dieta.calorias }} calorias)
-        </li>
-    {% endfor %}
-</ul>
-<a href="{% url 'dieta:criar_dieta' %}">Criar Nova Dieta</a>
+<head>
+    <style>
+.ContainerList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boxList {
+        background-color: #758583;
+        width: 80%;
+        min-height: 300px;
+        border-radius: 20px;
+        padding: 30px;
+    }
+    .buttonNew {
+    background-color: rgb(22, 216, 103);
+    width: 20%;
+    text-align: center;
+    color: rgb(44, 115, 177);
+    border-radius: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Center align vertically */
+}
+
+.title-listar {
+    color: black;
+}
+
+.descriptionButton {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.teste{
+    padding-bottom: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <section class="ContainerList" >
+        <div class="boxList">
+            
+                <h1 class="title-listar">Dietas Planejadas</h1>
+                <div class="teste">
+                <ul>
+                    {% for dieta in dietas %}
+                        <li>
+                            <a href="{% url 'dieta:editar_dieta' dieta.id %}">Editar</a> |
+                            <a href="{% url 'dieta:excluir_dieta' dieta.id %}" onclick="return confirm('Tem certeza que deseja excluir esta dieta?')">Excluir</a> |
+                            Refeições: {{ dieta.titulo }}, possui ({{ dieta.calorias }} calorias)
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            
+            <div class="buttonNew">
+                <a class="descriptionButton" href="{% url 'dieta:criar_dieta' %}">Criar Nova Refeição</a>
+            </div>
+        </div>
+    </section>
+</body>
 {% endblock %}

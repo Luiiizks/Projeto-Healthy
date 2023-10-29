@@ -98,3 +98,49 @@ footer p {
 .auth-card {
   margin-bottom: 30px;
 }
+
+/*home*/
+.textoHome {
+  align-items: center;
+  padding-top: 100px;
+}
+
+.h2Home {
+  display: flex;
+  font-size: 40px;
+  color: rgb(77, 182, 103);
+  font-weight: 700;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.container-box-news {
+  background-color: rgb(188, 230, 143);
+  width: 700px;
+  display: flex;
+  margin: 0 auto;
+  /* Centraliza horizontalmente */
+  align-items: center;
+  padding-top: 20px;
+  /* Centraliza verticalmente */
+  border-radius: 20px;
+}
+
+.boxes-new {
+  display: flex;
+  flex-direction: column;
+  /* Para alinhar o conteúdo verticalmente */
+  padding: 40px;
+}
+
+.mulher {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+
+.teste {
+  background-color: black;
+}
