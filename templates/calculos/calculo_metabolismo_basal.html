@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Cálculo de Metabolismo Basal{% endblock %}
+
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    <label for="genero">Gênero:</label>
+    <select name="genero" id="genero">
+      <option value="H">Homem</option>
+      <option value="M">Mulher</option>
+    </select>
+    <br>
+    <label for="idade">Idade:</label>
+    <input type="number" name="idade" id="idade" required>
+    <br>
+    <label for="altura">Altura (cm):</label>
+    <input type="number" name="altura" id="altura" step="0.01" required>
+    <br>
+    <label for="peso">Peso (kg):</label>
+    <input type="number" name="peso" id="peso" step="0.01" required>
+    <br>
+    <button type="submit">Calcular Metabolismo Basal</button>
+  </form>
+  
+{% endblock %}
