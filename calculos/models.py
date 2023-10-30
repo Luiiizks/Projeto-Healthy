@@ -8,7 +8,7 @@ class PerfilUsuario(models.Model):
         ('M', 'Mulher'),
     ]
     genero = models.CharField(max_length=1, choices=GENERO_CHOICES)
-    idade = models.PositiveIntegerField()
-    altura = models.FloatField()  # Permite valores nulos
-    peso = models.FloatField()
-    metabolismo_basal = models.FloatField()
+    idade = models.PositiveIntegerField(blank=False, default=0)
+    altura = models.FloatField(blank=False, default=0)
+    peso = models.FloatField(blank=False, default=0)
+    metabolismo_basal = models.FloatField(blank=False, default=0)
