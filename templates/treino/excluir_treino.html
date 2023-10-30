@@ -3,11 +3,23 @@
 {% block title %}Excluir Treino - {{ treino.dia_da_semana }}{% endblock %}
 
 {% block content %}
-  <h1>Excluir Treino - {{ treino.dia_da_semana }}</h1>
-  <p>Tem certeza de que deseja excluir este treino?</p>
-  <form method="post">
-    {% csrf_token %}
-    <input type="submit" value="Sim, Excluir">
-    <a href="{% url 'treino:index' %}">Cancelar</a>
-  </form>
+
+<head>
+  <link rel="stylesheet" href="{% static 'css/treino.css' %}">
+</head>
+
+<body>
+  <section class="ContainerList">
+    <div class="boxList">
+      <h1 class="title-listar">Excluir Treino - {{ treino.dia_da_semana }}</h1>
+      <p class="title-planner">Tem certeza de que deseja excluir o treino?</p>
+      <form method="post">
+        {% csrf_token %}
+        <button class="saveButton" type="submit">Sim, Excluir.</button>
+        <a class="cancelButton" href="{% url 'treino:index' %}">Cancelar</a>
+      </form>
+    </div>
+  </section>
+</body>
+ 
 {% endblock %}

@@ -5,11 +5,30 @@
 {% block title %}Dias da senana{% endblock %}
 
 {% block content %}
-    <h1>{{ treino.dia_da_semana }}</h1>
+<head>
+    <link rel="stylesheet" href="{% static 'css/treino.css' %}">
+</head>
+
+<body>
+  <section class="ContainerList">
+    <div class="boxList">
+
+    <h1 class="title-listar">{{ treino.dia_da_semana }}</h1>
+
     <form action="{% url 'treino:salvar' dia_semana=treino.dia_da_semana %}" method="post">
         {% csrf_token %}
-        <textarea name="texto">{{ treino.texto }}</textarea>
-        <input type="submit" value="Salvar">
-        <input type="submit" value="Editar" name="editar">
+        <p class="title-planner">Planeje seu treino:</p>
+        <div>
+            <textarea class="width-area" name="texto">{{ treino.texto }}</textarea>
+        </div>
+        <div>
+            <input class="saveButton" type="submit" value="Salvar">
+            <input class="editButton" type="submit" value="Editar" name="editar">
+        </div>
     </form>
+
+    </div>
+    </div>
+</section>
+</body>
 {% endblock %}

@@ -1,0 +1,99 @@
+body {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.ContainerList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxList {
+    background-color: rgb(105, 128, 110);
+    width: 80%;
+    min-height: 300px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.title-listar {
+    color: black;
+}
+
+.addTreino {
+    background-color: rgb(22, 216, 103);
+    width: 20%;
+    text-align: center;
+    color: rgb(44, 115, 177);
+    border-radius: 30px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.title-week {
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.title-planner {
+    font-size: 20px;
+    color: rgb(220, 246, 242);
+    font-weight: 500;
+}
+
+.width-area {
+    width: 400px;
+    height: 200px;
+}
+
+.editButton {
+    background-color: #49aca0;
+    color: black;
+    font-weight: 400;
+    padding: 10px;
+    border: none;
+}
+
+.saveButton {
+    background-color: rgb(22, 216, 103);
+    color: black;
+    font-weight: 400;
+    padding: 10px;
+    border: none;
+}
+
+.editTreino {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.cancelButton {
+    background-color: #e05147;
+    color: black;
+    font-weight: 400;
+    padding: 12px;
+    text-decoration: none;
+    border: none;
+}
+
+.seeDetails {
+    background-color: rgb(48, 204, 178);
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    border: none;
+    color: black;
+    font-weight: 400;
+}
