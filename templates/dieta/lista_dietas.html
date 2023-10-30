@@ -75,7 +75,7 @@
                 <ul>
                     {% for dieta in dietas %}
                         <li class="spaceDiet">
-                            <a class="editButton"  href="{% url 'dieta:editar_dieta' dieta.id %}">Editar</a> 
+                            <a class="editButton"  href="{% url 'dieta:editar_dieta' dieta.id %}">Visualizar</a> 
                             <a  class="excButton" href="{% url 'dieta:excluir_dieta' dieta.id %}" onclick="return confirm('Tem certeza que deseja excluir esta dieta?')">Excluir</a>
                             A Refeição: <a class="dietTitle">{{ dieta.titulo }}</a>, possui ({{ dieta.calorias }} calorias).
                         </li>
