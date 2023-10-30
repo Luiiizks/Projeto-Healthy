@@ -75,7 +75,7 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 ![diagramadeatv3](https://github.com/Luiiizks/Projeto-Healthy/assets/98840187/5d32df2c-5b77-455f-a42c-2513b0c7fb72)
 
 ## Relato de Pair Programming
-[**Relato de pair programming (drive)**][(https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view)](https://docs.google.com/document/d/1dJPProqQwIUhhkNSLsSjGZzurTldyBCu-ZG23LVlH1g/edit?usp=sharing)https://docs.google.com/document/d/1dJPProqQwIUhhkNSLsSjGZzurTldyBCu-ZG23LVlH1g/edit?usp=sharing
+[**Relato de pair programming (drive)**](https://docs.google.com/document/d/1dJPProqQwIUhhkNSLsSjGZzurTldyBCu-ZG23LVlH1g/view)
 
 
 
