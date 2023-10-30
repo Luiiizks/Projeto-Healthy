@@ -3,20 +3,102 @@
 {% block title %}Criar Dieta{% endblock %}
 
 {% block content %}
-<h1>Criar Dieta</h1>
-<link rel="stylesheet" href="{% static 'css/dieta.css' %}">
-<form method="post">
-    {% csrf_token %}
-    <label for="id_titulo">Título:</label>
-    <input type="text" id="id_titulo" name="titulo" class="titulo-input" required>
-    <br>
-    <label for="id_notas">Notas:</label>
-    <textarea id="notas" name="notas" class="notas-input" rows="4" cols="50" required></textarea>
-    <br>
-    <label for="id_calorias">Calorias:</label>
-    <input type="number" id="id_calorias" name="calorias" required>
-    <br>
-    <input type="submit" value="Salvar Dieta">
-</form>
-<a href="{% url 'dieta:lista_dietas' %}">Voltar para a lista de dietas</a>
+
+<head>
+    <style>
+        body{
+            padding-bottom: 100px;
+        }
+       .ContainerDieta{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+       .boxDieta{
+        background-color: rgb(105, 128, 110);
+        width: 80%;
+        
+        border-radius: 20px;
+        padding: 30px;
+       }
+       .title-listar {
+        color:  rgb(220, 246, 242);
+        }
+        .labelDieta{
+            color: black;
+            font-weight: 500;
+            font-size: 20px;
+        }
+        .box-form{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-bottom: 10px;
+        }
+        .input{
+          border-radius: 10px;
+          border-color: aliceblue;
+        }
+        .buttonNew {
+        background-color: rgb(22, 216, 103);
+        width: 20%;
+        text-align: center;
+        color: black; 
+        border-radius: 10px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500
+    }
+
+.descriptionButton {
+    color: black;
+    text-align: center;
+    font-weight: 500;
+}
+
+    </style>
+</head>
+<body>
+    <section class="ContainerDieta">
+        <div class="boxDieta">
+
+        
+        <div class="title-listar">
+            <h1>Criar Dieta</h1>
+        </div>
+        
+        <div class="form-dieta">
+            <form method="post">
+                {% csrf_token %}
+
+                <div class="box-form">
+                    <label class="labelDieta" for="id_titulo">Título:</label>
+                    <input type="text" id="id_titulo" name="titulo" class="input" required>
+                </div>
+                
+                <div class="box-form">
+                <label class="labelDieta" for="id_notas">Notas:</label>
+                <textarea id="notas" name="notas" rows="4" cols="50" class="input" required></textarea>
+                </div>
+
+                <div class="box-form">
+                    <label  class="labelDieta" for="id_calorias">Calorias:</label>
+                    <input type="number" id="id_calorias" name="calorias" class="input" required>
+                </div>
+               
+                <div class="box-form">
+                    <input type="submit" class="buttonNew" value="Salvar Dieta">
+                </div>
+            </form>
+            <div class="box-form">
+                <a class="descriptionButton" href="{% url 'dieta:lista_dietas' %}">Voltar para a lista de dietas</a>
+            </div>
+           
+        </div> 
+    </div>
+
+    </section>
+</body>
 {% endblock %}
