@@ -66,10 +66,10 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 # Entrega 03
 
 ## Screencasts
-[**Screencast do Sistema**]
-[**Screencast do Processo de Build e Deployment**]
-[**Screencast do Protótipo Lo-Fi**](https://drive.google.com/drive/u/2/folders/1wU3MXqzh6Ii7GK0CiYqPk1W-NYGdPN7y)
-[**Screencast da Execução dos Testes**]
+[**Screencast do Sistema**] <br/>
+[**Screencast do Processo de Build e Deployment**] <br/>
+[**Screencast do Protótipo Lo-Fi**](https://drive.google.com/drive/u/2/folders/1wU3MXqzh6Ii7GK0CiYqPk1W-NYGdPN7y) <br/>
+[**Screencast da Execução dos Testes**] <br/>
 
 ## Diagrama de Atividades
 ![diagrama drawio (1) drawio (2)](https://github.com/Luiiizks/Projeto-Healthy/assets/126585562/993250f0-edb6-44c0-a7d2-3b7bdebdb855)
