@@ -68,7 +68,7 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 ## Screencasts
 [**Screencast do Sistema na Azure - Link para o Drive**](https://drive.google.com/file/d/1pa99Qb3JKDuxI1Vtv2tx3GA-YVGuIN3U/view?usp=sharing) <br/>
 [**Screencast do CI/CD com build e deployment automatizado - Link para o Drive**](https://drive.google.com/file/d/1q9ihvMECAL4SQ9AY34jCX0SiyZdU0XXy/view?usp=sharing) <br/>
-[**Screencast do Protótipo Lo-Fi - Link para o Drive**](https://drive.google.com/drive/u/2/folders/1wU3MXqzh6Ii7GK0CiYqPk1W-NYGdPN7y) <br/>
+[**Screencast do Protótipo Lo-Fi - Link para o Drive**](https://drive.google.com/file/d/1lyT7KkFEkzXVTyvZLkNmii4nA2Fl0-86/view?usp=sharing) <br/>
 [**Screencast da Execução dos Testes - Link para o Drive**] <br/>
 
 ## Diagrama de Atividades
