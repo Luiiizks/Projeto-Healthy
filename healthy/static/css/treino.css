@@ -52,6 +52,12 @@ body {
     font-weight: 500;
 }
 
+.title-label {
+    font-size: 20px;
+    color: rgb(23, 26, 25);
+    font-weight: 500;
+}
+
 .width-area {
     width: 400px;
     height: 200px;
@@ -96,4 +102,15 @@ body {
     border: none;
     color: black;
     font-weight: 400;
+}
+
+.title-meta {
+    font-size: 30px;
+    color: rgb(220, 246, 242);
+    font-weight: 500;
+}
+
+.container-form {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
