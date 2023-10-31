@@ -4,13 +4,29 @@
 {% block title %}Editar Treino - {{ treino.dia_da_semana }}{% endblock %}
 
 {% block content %}
-  <h1>Editar Treino - {{ treino.dia_da_semana }}</h1>
-  <form method="post">
-    {% csrf_token %}
-    <label for="texto">Texto do Treino:</label>
-    <textarea id="texto" name="texto">{{ treino.texto }}</textarea>
-    <br>
-    <input type="submit" value="Salvar">
-    <a href="{% url 'treino:index' %}">Cancelar</a>
-  </form>
+<head>
+  <link rel="stylesheet" href="{% static 'css/treino.css' %}">
+</head>
+
+
+<body>
+  <section class="ContainerList">
+    <div class="boxList">
+      <h1 class="title-listar">Editar Treino: {{ treino.dia_da_semana }}</h1>
+
+      <form method="post">
+        {% csrf_token %}
+        <div class="editTreino">
+          <label class="title-planner" for="texto">Treino:</label>
+          <textarea class="width-area" id="texto" name="texto">{{ treino.texto }}</textarea>
+        </div>
+
+        <input class="saveButton" type="submit" value="Salvar">
+        <a class="cancelButton" href="{% url 'treino:index' %}">Cancelar</a>
+      </form>
+
+  </div>
+</section>
+</body>
+ 
 {% endblock %}

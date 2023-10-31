@@ -63,19 +63,8 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 [**Relato de pair programming (drive)**](https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view)
 <hr>
 
-# Entrega 03
 
-## Quadro do Jira - Sprint 03
-![quadrodasprintjira](https://github.com/Luiiizks/Projeto-Healthy/assets/98840187/71a75f94-34a2-4cb5-8e9b-c520154b2163)
 
-## Backlog do Jira
-![backlogJira](https://github.com/Luiiizks/Projeto-Healthy/assets/98840187/cda8e575-7fc0-4a6f-9b58-504eee0ba287)
-
-## Diagrama de Atividades
-![diagramadeatv3](https://github.com/Luiiizks/Projeto-Healthy/assets/98840187/5d32df2c-5b77-455f-a42c-2513b0c7fb72)
-
-## Relato de Pair Programming
-[**Relato de pair programming (drive)**](https://docs.google.com/document/d/1dJPProqQwIUhhkNSLsSjGZzurTldyBCu-ZG23LVlH1g/view)
 
 
 

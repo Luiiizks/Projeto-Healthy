@@ -5,21 +5,34 @@
 {% block title %}Dias da senana{% endblock %}
 
 {% block content %}
-<h1>Lista de Treinos</h1>
 
-<ul>
-  {% for dia_semana, treino in treinos.items %}
-    <li>
-      {{ dia_semana|title }}:
-      {% if treino %}
-        <a href="{% url 'treino:dia' dia_semana %}">Ver Detalhes</a>
-        <a href="{% url 'treino:editar_treino' dia_semana %}">Editar</a>
-        <a href="{% url 'treino:excluir_treino' dia_semana %}">Excluir</a>
-      {% else %}
-        <a href="{% url 'treino:dia' dia_semana %}">Adicionar Treino</a>
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
-</div>
+<head>
+  <link rel="stylesheet" href="{% static 'css/treino.css' %}">
+</head>
+
+<body>
+
+  <section class="ContainerList">
+    <div class="boxList">
+    <h1 class="title-listar">Lista de Treinos</h1>
+    
+      <p class="day-week">
+        {% for dia_semana, treino in treinos.items %}
+          <p class="title-week">
+            {{ dia_semana|title }}:
+            {% if treino %}
+              <a class="seeDetails" href="{% url 'treino:dia' dia_semana %}">Ver Detalhes</a>
+              <a class="seeDetails" href="{% url 'treino:editar_treino' dia_semana %}">Editar</a>
+              <a class="seeDetails" href="{% url 'treino:excluir_treino' dia_semana %}">Excluir</a>
+            {% else %}
+              <a class="addTreino" href="{% url 'treino:dia' dia_semana %}">Adicionar Treino</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+   
+    </div>
+  </section>
+</body>
 {% endblock %}
