@@ -3,6 +3,17 @@
 {% block title %}Resultado do Cálculo de Metabolismo Basal{% endblock %}
 
 {% block content %}
-  <h1>Resultado do Cálculo de Metabolismo Basal</h1>
-  <p>O seu metabolismo basal é: {{ metabolismo_basal }}</p>
+<head>
+  <link rel="stylesheet" href="{% static 'css/treino.css' %}">
+</head>
+
+<body>
+  <section class="ContainerList">
+    <div class="boxList">
+  <h1 class="title-meta">Resultado do Cálculo de Metabolismo Basal:</h1>
+  <p class="title-week">O seu metabolismo basal é: {{ metabolismo_basal }}</p>
+    </div>
+  </section>
+</body>
+  
 {% endblock %}
