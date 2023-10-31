@@ -63,6 +63,26 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 [**Relato de pair programming (drive)**](https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view)
 <hr>
 
+# Entrega 03
+
+## Screencasts
+[**Link do Screencast do Sistema**]() // [**Link do Screencast dos protótipos Lo-Fi**]()<br>
+[**Link do screencast CI/CD**]() // [**Link do Screencast de testes do sistema**]()<br>
+
+## Diagrama de Atividades
+
+## Quadro do Jira - Sprint 03
+
+## Backlog do Jira
+
+## Bug Tracker
+
+
+## Relato de Pair Programming
+[**Relato de pair programming (drive)**](https://docs.google.com/document/d/1dJPProqQwIUhhkNSLsSjGZzurTldyBCu-ZG23LVlH1g/edit)
+<hr>
+
+
 
 
 
