@@ -63,6 +63,29 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 [**Relato de pair programming (drive)**](https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view)
 <hr>
 
+# Entrega 03
+
+## Screencasts
+[**Link do Screencast do Sistema**]() // [**Link do Screencast dos protótipos Lo-Fi**]()<br>
+[**Link do screencast CI/CD**]() // [**Link do Screencast de testes do sistema**]()<br>
+
+## Diagrama de Atividades
+![diagrama drawio (1) drawio (2)](https://github.com/Luiiizks/Projeto-Healthy/assets/126585562/993250f0-edb6-44c0-a7d2-3b7bdebdb855)
+
+## Quadro do Jira - Sprint 03
+![sprint](https://github.com/Luiiizks/Projeto-Healthy/assets/126585562/83180157-da59-425d-9ab4-8171b075d553)
+
+## Backlog do Jira
+![backlog](https://github.com/Luiiizks/Projeto-Healthy/assets/126585562/3f9f9892-50f1-45de-8ae7-370d2f059ab6)
+
+## Bug Tracker
+![bugtracker](https://github.com/Luiiizks/Projeto-Healthy/assets/126585562/84f7bb18-fcad-4304-ac56-2ce3e0afe528)
+
+## Relato de Pair Programming
+[**Relato de pair programming (drive)**](https://docs.google.com/document/d/1dJPProqQwIUhhkNSLsSjGZzurTldyBCu-ZG23LVlH1g/edit)
+<hr>
+
+
 
 
 
