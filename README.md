@@ -69,7 +69,6 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 [**Screencast do Sistema na Azure - Link para o Drive**](https://drive.google.com/file/d/1pa99Qb3JKDuxI1Vtv2tx3GA-YVGuIN3U/view?usp=sharing) <br/>
 [**Screencast do CI/CD com build e deployment automatizado - Link para o Drive**](https://drive.google.com/file/d/1q9ihvMECAL4SQ9AY34jCX0SiyZdU0XXy/view?usp=sharing) <br/>
 [**Screencast do Protótipo Lo-Fi - Link para o Drive**](https://drive.google.com/file/d/1lyT7KkFEkzXVTyvZLkNmii4nA2Fl0-86/view?usp=sharing) <br/>
-[**Screencast da Execução dos Testes - Link para o Drive**] <br/>
 
 ## Diagrama de Atividades
 ![diagrama drawio (1) drawio (2)](https://github.com/Luiiizks/Projeto-Healthy/assets/126585562/993250f0-edb6-44c0-a7d2-3b7bdebdb855)
