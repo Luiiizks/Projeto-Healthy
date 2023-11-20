@@ -87,6 +87,33 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 <hr>
 
 
+# Entrega 04
+
+## Screencasts
+[**Screencast do Sistema na Azure - Link para o Drive**]() <br/>
+[**Screencast do CI/CD com build e deployment automatizado - Link para o Drive**]() <br/>
+[**Screencast do Protótipo Lo-Fi - Link para o Drive**]() <br/>
+[**Screencast dos Testes Automatizados - Link para o Drive**]() <br/>
+
+## Diagrama de Atividades
+![diagrama]()
+
+## Quadro do Jira - Sprint 03
+![sprint]()
+
+## Backlog do Jira
+![backlog]()
+
+## Bug Tracker
+![bugtracker]()
+
+## Relato de Pair Programming
+[**Relato de pair programming (drive)**]()
+<hr>
+
+
+
+
 
 
 
