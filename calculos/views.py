@@ -28,3 +28,27 @@ def calcular_metabolismo_basal(request):
     else:
         # Lógica para lidar com solicitações GET (mostrar o formulário)
         return render(request, 'calculos/calculo_metabolismo_basal.html')
+    
+
+def calcular_ingestao_agua(request):
+    if request.method == 'POST':
+        peso = float(request.POST['peso'])
+        genero = request.POST['genero']
+
+        if genero == 'H':
+            ingestao_agua = round(peso * 0.035, 4)  # Arredonda para 3 casas decimais
+        else:
+            ingestao_agua = round(peso * 0.031, 4)
+
+        perfil_usuario, created = PerfilUsuario.objects.get_or_create(usuario=request.user)
+        perfil_usuario.peso = peso
+        perfil_usuario.ingestao_agua = ingestao_agua
+        perfil_usuario.save()
+
+        return render(
+            request,
+            'calculos/result_ingestao_agua.html',
+            {'ingestao_agua': ingestao_agua}
+        )
+    else:
+        return render(request, 'calculos/calculo_agua.html')
