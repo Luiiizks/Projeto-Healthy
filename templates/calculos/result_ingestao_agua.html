@@ -1,0 +1,18 @@
+{% extends 'base.html' %} {% load static %} {% block title %}Resultado do
+Cálculo de quantidade de agua{% endblock %} {% block content %}
+<head>
+  <link rel="stylesheet" href="{% static 'css/treino.css' %}" />
+</head>
+
+<body>
+  <section class="ContainerList">
+      <div class="boxList">
+        <h1 class="title-meta">
+          A quantidade recomendada de água para sua ingestão diária é:
+        <h1>
+        <p class="title-weeks">{{ ingestao_agua|floatformat:"-3" }} ml</p>
+      </div>
+  </section>
+</body>
+
+{% endblock %}
