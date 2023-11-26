@@ -86,6 +86,26 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 [**Relato de pair programming (drive)**](https://docs.google.com/document/d/1dJPProqQwIUhhkNSLsSjGZzurTldyBCu-ZG23LVlH1g/edit)
 <hr>
 
+# Entrega 04
+
+## Screencasts
+
+
+## Diagrama de Atividades
+![diagrama drawio (1) drawio (1)](https://github.com/Luiiizks/Projeto-Healthy/assets/126585562/65d16421-0811-466f-9317-17f12a41965f)
+
+## Quadro do Jira - Sprint 04
+
+
+## Backlog do Jira
+
+
+## Bug Tracker
+
+
+## Relato de Pair Programming
+
+<hr>
 
 
 
