@@ -1,24 +1,45 @@
-{% extends  'base.html' %}
-{% load crispy_forms_tags %}
+{% extends 'base.html' %}
 
 {% block title %}Register{% endblock %}
 
 {% block content %}
 <div class="row">
     <div class="col-md-4 offset-md-4">
-        <div class="card  auth-card">
+        <div class="card auth-card">
             <div class="card-body">
                 <h4 class="card-title text-center">Register Healthy</h4>
-        
+
+                {% if messages %}
+                    <div class="alert alert-info" role="alert">
+                        {% for message in messages %}
+                            {{ message }}
+                        {% endfor %}
+                    </div>
+                {% endif %}
+
                 <form method="post">
                     {% csrf_token %}
                     <input type="hidden" name="next" value="{{ next }}">
-        
-                    {{ form|crispy }}
+
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Username:</label>
+                        <input type="text" name="username" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password:</label>
+                        <input type="password" name="password" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="confirm_password" class="form-label">Confirm Password:</label>
+                        <input type="password" name="confirm_password" class="form-control" required>
+                    </div>
+
                     <button type="submit" class="btn btn-primary btn-block">Register</button>
                 </form>
 
-                <p class="change-form-p">Already have an account?<a href="/accounts/login">Login Here</a></p>
+                <p class="change-form-p">Already have an account? <a href="/accounts/login">Login Here</a></p>
             </div>
         </div>
     </div>
