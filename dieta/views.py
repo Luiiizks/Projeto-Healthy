@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .models import Dieta
+from .models import Dieta, CaloriasMeta
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseBadRequest
 
@@ -75,4 +75,25 @@ def atualizar_calorias(request, dieta_id):
 @login_required
 def lista_dietas(request):
     dietas = Dieta.objects.filter(user=request.user)
-    return render(request, 'dieta/lista_dietas.html', {'dietas': dietas})
+    calorias_meta = CaloriasMeta.objects.filter(user=request.user).first()
+
+
+    return render(request, 'dieta/lista_dietas.html', {'dietas': dietas, 'calorias_meta': calorias_meta})
+
+@login_required
+def definir_meta_calorias(request):
+    calorias_meta = CaloriasMeta.objects.filter(user=request.user).first()
+
+    if request.method == "POST":
+        meta_diaria = request.POST.get("calorias_meta")
+
+        if calorias_meta is not None:
+            calorias_meta.meta_diaria = meta_diaria
+            calorias_meta.save()
+        else:
+            calorias_meta = CaloriasMeta(user=request.user, meta_diaria=meta_diaria)
+            calorias_meta.save()
+
+        return redirect('dieta:lista_dietas')
+
+    return render(request, 'dieta/definir_meta_calorias.html', {'calorias_meta': calorias_meta})

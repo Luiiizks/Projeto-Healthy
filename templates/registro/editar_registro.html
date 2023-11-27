@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+{% block title %}Editar Registro{% endblock %}
+
+{% block content %}
+
+<head>
+    <style>
+        body {
+            padding-bottom: 100px;
+        }
+
+        .ContainerRegistro {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .boxRegistro {
+            background-color: rgb(105, 128, 110);
+            width: 80%;
+            border-radius: 20px;
+            padding: 30px;
+        }
+
+        .title-listar {
+            color: rgb(220, 246, 242);
+        }
+
+        .labelRegistro {
+            color: black;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        .box-form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-bottom: 10px;
+        }
+
+        .input {
+            border-radius: 10px;
+            border-color: aliceblue;
+        }
+
+        .buttonNew {
+            background-color: rgb(22, 216, 103);
+            width: 20%;
+            text-align: center;
+            color: black;
+            border-radius: 10px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 500;
+        }
+
+        .descriptionButton {
+            color: black;
+            text-align: center;
+            font-weight: 500;
+        }
+
+    </style>
+</head>
+
+<body>
+    <section class="ContainerRegistro">
+        <div class="boxRegistro">
+
+            <div class="title-listar">
+                <h1>Editar Registro</h1>
+            </div>
+            <div class="form-registro">
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="box-form">
+                        <label for="data">Data:</label>
+                        <input type="date" id="data" name="data" value="{{ registro.data }}" class="data-input" required>
+                    </div>
+
+                    <div class="box-form">
+                        <label for="nota">Nota:</label>
+                        <textarea id="nota" name="nota" class="nota-input" rows="4" cols="50" required>{{ registro.nota }}</textarea>
+                    </div>
+
+                    <div class="box-form">
+                        <input type="submit" class="buttonNew" value="Salvar Alterações">
+                    </div>
+
+                </form>
+            </div>
+            <div class="box-form">
+                <a class="descriptionButton" href="{% url 'registro:listar_registros' %}">Voltar para a lista de registros</a>
+            </div>
+        </div>
+    </section>
+</body>
+
+{% endblock %}

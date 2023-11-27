@@ -18,11 +18,17 @@ body {
 #exercicios-dropdown .dropdown-menu {
   display: none;
 }
+#treino-dropdown .dropdown-menu {
+  display: none;
+}
 
 #exercicios-dropdown:hover .dropdown-menu {
   display: block;
 }
 
+#trino-dropdown:hover .dropdown-menu {
+  display: block;
+}
 .navbar {
   border-bottom: 1px solid #36463f;
   margin-bottom: 20px;

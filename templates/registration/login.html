@@ -1,5 +1,8 @@
-{% extends 'base.html' %} {% load crispy_forms_tags %} {% block title %}
-Entrar{%endblock %} {% block content %}
+{% extends 'base.html' %}
+
+{% block title %}Entrar{% endblock %}
+
+{% block content %}
 <div class="row">
   <div class="col-md-4 offset-md-4" style="padding-top: 40px">
     <div class="card auth-card">
@@ -10,14 +13,21 @@ Entrar{%endblock %} {% block content %}
           {% csrf_token %}
           <input type="hidden" name="next" value="{{ next }}" />
 
-          {{ form|crispy }}
-          <button type="submit" class="btn btn-primary btn-block">
-            Entrar
-          </button>
+          <div class="mb-3">
+            <label for="username" class="form-label">Username:</label>
+            <input type="text" name="username" class="form-control" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="password" class="form-label">Password:</label>
+            <input type="password" name="password" class="form-control" required>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Entrar</button>
         </form>
 
         <p class="change-form-p">
-          Dont have an account?<a href="/accounts/register">Create Account</a>
+          Don't have an account? <a href="/accounts/register">Create Account</a>
         </p>
       </div>
     </div>

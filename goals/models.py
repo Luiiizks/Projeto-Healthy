@@ -15,3 +15,11 @@ class WeightGoal(models.Model):
 
     def __str__(self):
         return f"Meta de peso de {self.user}: {self.weight} quilos"
+    
+
+class FatPercentageGoal(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    percentage = models.FloatField()
+
+    def __str__(self):
+        return f"Meta de percentual de gordura de {self.user}: {self.percentage}%"
