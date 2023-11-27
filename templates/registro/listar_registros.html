@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% block title %}Lista de Dietas{% endblock %}
+{% block title %}Lista de Registros{% endblock %}
 {% block content %}
 <head>
     <style>
@@ -7,10 +7,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-        }
-
-        .calorias_meta{
-            color:  rgb(246, 246, 246);
         }
 
         .boxList {
@@ -53,60 +49,53 @@
             text-align: center;
             font-weight: 500;
         }
-        .teste{
+        .teste {
             padding-bottom: 10px;
         }
 
-        .editButton{
+        .editButton {
             background-color: #49aca0;
             color: black;
             font-weight: 400;
             padding: 10px;
         }
 
-        .excButton{
+        .excButton {
             background-color: #e05147;
             color: black;
             font-weight: 400;
             padding: 10px;
         }
-        .spaceDiet{
+        .spaceDiet {
             padding: 10px;
         }
 
-        .dietTitle{
+        .registroTitle {
             font-weight: 500;
             color: black;
             text-decoration: none;
         }
     </style>
 </head>
+
 <body>
     <section class="ContainerList" >
         <div class="boxList">
-            <h1 class="title-listar">Dietas Planejadas</h1>
+            <h1 class="title-listar">Registros Diários</h1>
             <div class="teste">
-                <h5 class="calorias_meta">Meta Diária de Calorias: {% if calorias_meta %}{{ calorias_meta.meta_diaria }}{% else %}Não definida{% endif %} calorias</h5>
                 <ul>
-                    {% for dieta in dietas %}
+                    {% for registro in registros %}
                         <li class="spaceDiet">
-                            <a class="editButton" href="{% url 'dieta:editar_dieta' dieta.id %}">Visualizar</a> 
-                            <a class="excButton" href="{% url 'dieta:excluir_dieta' dieta.id %}" onclick="return confirm('Tem certeza que deseja excluir esta dieta?')">Excluir</a>
-                            A Refeição: <a class="dietTitle">{{ dieta.titulo }}</a>, possui ({{ dieta.calorias }} calorias).
+                            <a class="editButton" href="{% url 'registro:editar_registro' registro.id %}">Visualizar</a>
+                            <a class="excButton" href="{% url 'registro:excluir_registro' registro.id %}" onclick="return confirm('Tem certeza que deseja excluir este registro?')">Excluir</a>
+                            Data: <a class="registroTitle">{{ registro.data }}</a>
                         </li>
                     {% endfor %}
                 </ul>
             </div>
             <div class="buttonNew">
-                <a class="descriptionButton" href="{% url 'dieta:criar_dieta' %}">Criar Nova Refeição</a>
-                
-            <br><br>
+                <a class="descriptionButton" href="{% url 'registro:criar_registro' %}">Criar Novo Registro</a>
             </div>
-            <div class="buttonNew2">
-                <a class="descriptionButton" href="{% url 'dieta:definir_meta_calorias' %}">Definir Meta de Calorias</a>
-                
-            </div>
-            
         </div>
     </section>
 </body>

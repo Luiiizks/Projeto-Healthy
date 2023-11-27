@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Meta de Percentual de Gordura{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/metas.css' %}">
+<div class="containerGeral">
+    <div class="container">
+        <h1>Meta de Percentual de Gordura</h1>
+        {% if fat_goal %}
+        <div>
+            <p>Sua meta de percentual de gordura é de {{ fat_goal.percentage }}%.</p>
+            <p>Editar meta:</p>
+        </div>
+        {% else %}
+        <div>
+            <p>Você ainda não definiu uma meta de percentual de gordura.</p>
+            <p>Definir meta:</p>
+        </div>
+        {% endif %}
+        <form action="{% url 'fat_percentage_goal' %}" method="post">
+            {% csrf_token %}
+            <div>
+                <input class="input" type="float" name="percentage" id="percentage" placeholder="Meta de percentual de gordura (%)">
+                <input class="salvar" type="submit" value="Salvar">
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

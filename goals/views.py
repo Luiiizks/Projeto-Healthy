@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 
-from .models import WaterGoal, WeightGoal
+from .models import WaterGoal, WeightGoal, FatPercentageGoal
 
 @login_required
 def water_goal(request):
@@ -31,15 +31,12 @@ def weight_goal(request):
     if request.method == "POST":
         weight = request.POST["weight"]
 
-        # Verifica se o usuário já tem uma meta de peso definida
         weight_goal = WeightGoal.objects.filter(user=request.user).first()
 
-        # Se o usuário já tiver uma meta de peso definida, atualize-a
         if weight_goal is not None:
             weight_goal.weight = weight
             weight_goal.save()
 
-        # Se o usuário não tiver uma meta de peso definida, crie uma nova
         else:
             weight_goal = WeightGoal(user=request.user, weight=weight)
             weight_goal.save()
@@ -50,4 +47,25 @@ def weight_goal(request):
 
     return render(request, "goals/weight_goal.html", {
         "weight_goal": user_weight_goal
+    })
+
+@login_required
+def fat_percentage_goal(request):
+    if request.method == "POST":
+        percentage = request.POST["percentage"]
+        fat_goal = FatPercentageGoal.objects.filter(user=request.user).first()
+
+        if fat_goal is not None:
+            fat_goal.percentage = percentage
+            fat_goal.save()
+        else:
+            fat_goal = FatPercentageGoal(user=request.user, percentage=percentage)
+            fat_goal.save()
+
+        return redirect("/goals/fat_percentage_goal/")
+
+    user_fat_goal = FatPercentageGoal.objects.filter(user=request.user).first()
+
+    return render(request, "goals/fat_percentage_goal.html", {
+        "fat_goal": user_fat_goal
     })

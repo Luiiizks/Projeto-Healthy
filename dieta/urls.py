@@ -9,4 +9,6 @@ urlpatterns = [
     path('excluir_dieta/<int:dieta_id>/', views.excluir_dieta, name='excluir_dieta'),
     path('atualizar_calorias/<int:dieta_id>/', views.atualizar_calorias, name='atualizar_calorias'),
     path('lista_dietas/', views.lista_dietas, name='lista_dietas'),
+    path('definir_meta_calorias/', views.definir_meta_calorias, name='definir_meta_calorias'),
+
 ]

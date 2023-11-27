@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'healthy',
-    'users',
     'about',
     'crispy_forms',
     'crispy_bootstrap4',
@@ -51,6 +50,7 @@ INSTALLED_APPS = [
     'treino',
     'dieta',
     'calculos',
+    'registro',
 ]
 
 MIDDLEWARE = [

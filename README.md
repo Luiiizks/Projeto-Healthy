@@ -7,7 +7,7 @@ O site “Healthy” é uma plataforma projetada para fornecer ao usuário uma e
 Projeto da cadeira de <b>Fundamentos De Software</b>, do segundo período de ciência da computação na CESAR School. <br/>
 Ano: 2023.2 // Turma: A <br/>
 
-**Links importantes:** [**Jira**](https://fds-cesar.atlassian.net/jira/software/projects/HEAL/boards/2) // [**Drive**](https://drive.google.com/drive/folders/1iBCM2QprI1FWM4f6AfQXnx1gVc7KUZbJ) // [**Instruções de como instalar o projeto**](https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view)
+**Links importantes:** [**Jira**](https://fds-cesar.atlassian.net/jira/software/projects/HEAL/boards/2) // [**Drive**](https://drive.google.com/drive/folders/1iBCM2QprI1FWM4f6AfQXnx1gVc7KUZbJ) // [**Instruções de como instalar o projeto**](https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view) // [**Deployment na Azure**](https://web-application-healthy.azurewebsites.net/)
 
 # Contribuidores:
 
@@ -45,7 +45,7 @@ Professor: Ricardo Araujo Costa.
 -Como iniciar nossa aplicação:<br/>
 Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Após essa etapa, será possível ter acesso à 2 funcionalidades, sendo elas, o cálculo da taxa de metabolismo basal e a meta diária de água.<br/>
 ## Links: 
-[**Link da nossa aplicação na Azure**](https://web-application-healthy.azurewebsites.net/) // [**Link do Screencast do Sistema**](https://drive.google.com/file/d/1ZtE5ZRuRasHibuyAbftTr0fqpg2i8uBV/view?usp=sharing) <br/>
+[**Link da nossa aplicação na Azure **](https://web-application-healthy.azurewebsites.net/) // [**Link do Screencast do Sistema**](https://drive.google.com/file/d/1ZtE5ZRuRasHibuyAbftTr0fqpg2i8uBV/view?usp=sharing) <br/>
 
 ## Diagrama de Atividades
 ![fds-miro](https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/75cecd46-4edd-4cd7-ac51-f8bca96aaa79)
@@ -66,8 +66,9 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 # Entrega 03
 
 ## Screencasts
-**Link do Screencast do Sistema** // [**Link do Screencast dos protótipos Lo-Fi**](https://drive.google.com/drive/u/2/folders/1wU3MXqzh6Ii7GK0CiYqPk1W-NYGdPN7y)<br>
-**Link do screencast CI/CD** // **Link do Screencast de testes do sistema**<br>
+[**Screencast do Sistema na Azure - Link para o Drive**](https://drive.google.com/file/d/1pa99Qb3JKDuxI1Vtv2tx3GA-YVGuIN3U/view?usp=sharing) <br/>
+[**Screencast do CI/CD com build e deployment automatizado - Link para o Drive**](https://drive.google.com/file/d/1q9ihvMECAL4SQ9AY34jCX0SiyZdU0XXy/view?usp=sharing) <br/>
+[**Screencast do Protótipo Lo-Fi - Link para o Drive**](https://drive.google.com/file/d/1lyT7KkFEkzXVTyvZLkNmii4nA2Fl0-86/view?usp=sharing) <br/>
 
 ## Diagrama de Atividades
 ![diagrama drawio (1) drawio (2)](https://github.com/Luiiizks/Projeto-Healthy/assets/126585562/993250f0-edb6-44c0-a7d2-3b7bdebdb855)
@@ -85,7 +86,29 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 [**Relato de pair programming (drive)**](https://docs.google.com/document/d/1dJPProqQwIUhhkNSLsSjGZzurTldyBCu-ZG23LVlH1g/edit)
 <hr>
 
+# Entrega 04
 
+## Screencasts
+
+
+## Diagrama de Atividades
+![Diagrama de Atividades](https://github.com/Luiiizks/Projeto-Healthy/assets/126585562/65d16421-0811-466f-9317-17f12a41965f)
+
+## Quadro do Jira 
+![Quadro do Jira](https://github.com/Luiiizks/Projeto-Healthy/assets/98840187/0679fbf2-e4da-4059-9d75-871290e4b55b)
+
+
+## Backlog do Jira
+![Backlog Jira](https://github.com/Luiiizks/Projeto-Healthy/assets/98840187/d110de63-ed0d-4093-8b99-e72500c44c3f)
+
+
+## Bug Tracker
+
+
+## Relato de Pair Programming
+
+[**Relato de pair programming**](https://docs.google.com/document/d/1n645Or0Qqqr59ghD-Q8HeoAbXYhus1IZCR1GHnHEdew/view)
+<hr>
 
 
 
