@@ -3,89 +3,110 @@
 {% block content %}
 <head>
     <style>
-.ContainerList {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+        .ContainerList {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-    .boxList {
-        background-color: rgb(105, 128, 110);
-        width: 80%;
-        min-height: 300px;
-        border-radius: 20px;
-        padding: 30px;
-    }
-    .buttonNew {
-    background-color: rgb(22, 216, 103);
-    width: 20%;
-    text-align: center;
-    color: rgb(44, 115, 177);
-    border-radius: 30px;
-    height: 40px;
-    display: flex;
-    justify-content: center; /* Center align horizontally */
-    align-items: center; /* Center align vertically */
-}
+        .calorias_meta{
+            color:  rgb(246, 246, 246);
+        }
 
-.title-listar {
-    color:  rgb(220, 246, 242);
-}
+        .boxList {
+            background-color: rgb(105, 128, 110);
+            width: 80%;
+            min-height: 300px;
+            border-radius: 20px;
+            padding: 30px;
+        }
+        .buttonNew {
+            background-color: rgb(22, 216, 103);
+            width: 20%;
+            text-align: center;
+            color: rgb(44, 115, 177);
+            border-radius: 30px;
+            height: 40px;
+            display: flex;
+            justify-content: center; /* Center align horizontally */
+            align-items: center; /* Center align vertically */
+        }
+        .buttonNew2 {
+            background-color: #49aca0;
+            width: 20%;
+            text-align: center;
+            color: rgb(44, 115, 177);
+            border-radius: 30px;
+            height: 40px;
+            display: flex;
+            justify-content: center; /* Center align horizontally */
+            align-items: center; /* Center align vertically */
+        }
 
-.descriptionButton {
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    font-weight: 500;
-}
-.teste{
-    padding-bottom: 10px;
-}
+        .title-listar {
+            color:  rgb(220, 246, 242);
+        }
 
-.editButton{
-    background-color: #49aca0;;
-    color: black;
-    font-weight: 400;
-    padding: 10px;
-}
+        .descriptionButton {
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            font-weight: 500;
+        }
+        .teste{
+            padding-bottom: 10px;
+        }
 
-.excButton{
-    background-color: #e05147;;
-    color: black;
-    font-weight: 400;
-    padding: 10px;
-}
-.spaceDiet{
-    padding: 10px;
-}
+        .editButton{
+            background-color: #49aca0;
+            color: black;
+            font-weight: 400;
+            padding: 10px;
+        }
 
-.dietTitle{
-    font-weight: 500;
-    color: black;
-    text-decoration: none;
-}
+        .excButton{
+            background-color: #e05147;
+            color: black;
+            font-weight: 400;
+            padding: 10px;
+        }
+        .spaceDiet{
+            padding: 10px;
+        }
+
+        .dietTitle{
+            font-weight: 500;
+            color: black;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
     <section class="ContainerList" >
         <div class="boxList">
-            
-                <h1 class="title-listar">Dietas Planejadas</h1>
-                <div class="teste">
+            <h1 class="title-listar">Dietas Planejadas</h1>
+            <div class="teste">
+                <h5 class="calorias_meta">Meta Diária de Calorias: {% if calorias_meta %}{{ calorias_meta.meta_diaria }}{% else %}Não definida{% endif %} calorias</h5>
                 <ul>
                     {% for dieta in dietas %}
                         <li class="spaceDiet">
-                            <a class="editButton"  href="{% url 'dieta:editar_dieta' dieta.id %}">Visualizar</a> 
-                            <a  class="excButton" href="{% url 'dieta:excluir_dieta' dieta.id %}" onclick="return confirm('Tem certeza que deseja excluir esta dieta?')">Excluir</a>
+                            <a class="editButton" href="{% url 'dieta:editar_dieta' dieta.id %}">Visualizar</a> 
+                            <a class="excButton" href="{% url 'dieta:excluir_dieta' dieta.id %}" onclick="return confirm('Tem certeza que deseja excluir esta dieta?')">Excluir</a>
                             A Refeição: <a class="dietTitle">{{ dieta.titulo }}</a>, possui ({{ dieta.calorias }} calorias).
                         </li>
                     {% endfor %}
                 </ul>
             </div>
-            
             <div class="buttonNew">
                 <a class="descriptionButton" href="{% url 'dieta:criar_dieta' %}">Criar Nova Refeição</a>
+                
+            <br><br>
             </div>
+            <div class="buttonNew2">
+                <a class="descriptionButton" href="{% url 'dieta:definir_meta_calorias' %}">Definir Meta de Calorias</a>
+                
+            </div>
+            
         </div>
     </section>
 </body>

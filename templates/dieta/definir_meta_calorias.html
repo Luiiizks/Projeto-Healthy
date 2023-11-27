@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Definir Meta de Calorias Diárias{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/metas.css' %}">
+<div class="containerGeral">
+  <div class="container">
+    <h1>Definir Meta de Calorias Diárias</h1>
+    {% if calorias_meta %}
+        <div>
+            <p>Sua meta diária de calorias é de {{ calorias_meta.meta_diaria }} calorias.</p>
+            <p>Editar meta:</p>
+        </div>
+    {% else %}
+        <div>
+            <p>Você ainda não definiu uma meta diária de calorias.</p>
+            <p>Definir meta:</p>
+        </div>
+    {% endif %}
+    <form method="post" action="{% url 'dieta:definir_meta_calorias' %}">
+        {% csrf_token %}
+        <div>
+            <input class="input" type="number" name="calorias_meta" id="calorias_meta" placeholder="Meta diária de calorias">
+            <input class="salvar" type="submit" value="Salvar">
+        </div>
+    </form>
+</div>
+</div>
+</div>
+{% endblock %}
