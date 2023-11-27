@@ -31,15 +31,12 @@ def weight_goal(request):
     if request.method == "POST":
         weight = request.POST["weight"]
 
-        # Verifica se o usuário já tem uma meta de peso definida
         weight_goal = WeightGoal.objects.filter(user=request.user).first()
 
-        # Se o usuário já tiver uma meta de peso definida, atualize-a
         if weight_goal is not None:
             weight_goal.weight = weight
             weight_goal.save()
 
-        # Se o usuário não tiver uma meta de peso definida, crie uma nova
         else:
             weight_goal = WeightGoal(user=request.user, weight=weight)
             weight_goal.save()

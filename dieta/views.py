@@ -83,7 +83,6 @@ def lista_dietas(request):
 @login_required
 def definir_meta_calorias(request):
     calorias_meta = CaloriasMeta.objects.filter(user=request.user).first()
-    print(calorias_meta)  # Adicione esta linha para imprimir o valor
 
     if request.method == "POST":
         meta_diaria = request.POST.get("calorias_meta")
