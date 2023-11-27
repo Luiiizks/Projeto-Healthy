@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+{% block title %}Lista de Registros{% endblock %}
+{% block content %}
+<head>
+    <style>
+        .ContainerList {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .boxList {
+            background-color: rgb(105, 128, 110);
+            width: 80%;
+            min-height: 300px;
+            border-radius: 20px;
+            padding: 30px;
+        }
+        .buttonNew {
+            background-color: rgb(22, 216, 103);
+            width: 20%;
+            text-align: center;
+            color: rgb(44, 115, 177);
+            border-radius: 30px;
+            height: 40px;
+            display: flex;
+            justify-content: center; /* Center align horizontally */
+            align-items: center; /* Center align vertically */
+        }
+        .buttonNew2 {
+            background-color: #49aca0;
+            width: 20%;
+            text-align: center;
+            color: rgb(44, 115, 177);
+            border-radius: 30px;
+            height: 40px;
+            display: flex;
+            justify-content: center; /* Center align horizontally */
+            align-items: center; /* Center align vertically */
+        }
+
+        .title-listar {
+            color:  rgb(220, 246, 242);
+        }
+
+        .descriptionButton {
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            font-weight: 500;
+        }
+        .teste {
+            padding-bottom: 10px;
+        }
+
+        .editButton {
+            background-color: #49aca0;
+            color: black;
+            font-weight: 400;
+            padding: 10px;
+        }
+
+        .excButton {
+            background-color: #e05147;
+            color: black;
+            font-weight: 400;
+            padding: 10px;
+        }
+        .spaceDiet {
+            padding: 10px;
+        }
+
+        .registroTitle {
+            font-weight: 500;
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="ContainerList" >
+        <div class="boxList">
+            <h1 class="title-listar">Registros Diários</h1>
+            <div class="teste">
+                <ul>
+                    {% for registro in registros %}
+                        <li class="spaceDiet">
+                            <a class="editButton" href="{% url 'registro:editar_registro' registro.id %}">Visualizar</a>
+                            <a class="excButton" href="{% url 'registro:excluir_registro' registro.id %}" onclick="return confirm('Tem certeza que deseja excluir este registro?')">Excluir</a>
+                            Data: <a class="registroTitle">{{ registro.data }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="buttonNew">
+                <a class="descriptionButton" href="{% url 'registro:criar_registro' %}">Criar Novo Registro</a>
+            </div>
+        </div>
+    </section>
+</body>
+{% endblock %}

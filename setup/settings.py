@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'treino',
     'dieta',
     'calculos',
+    'registro',
 ]
 
 MIDDLEWARE = [
