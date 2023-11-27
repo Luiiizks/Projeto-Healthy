@@ -20,6 +20,10 @@
                 <form method="post">
                     {% csrf_token %}
                     <input type="hidden" name="next" value="{{ next }}">
+        
+                    {{ form|crispy }}
+                    <button id="button_register" type="submit" class="btn btn-primary btn-block">Register</button>
+
 
                     <div class="mb-3">
                         <label for="username" class="form-label">Username:</label>
