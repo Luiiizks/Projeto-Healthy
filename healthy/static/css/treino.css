@@ -105,6 +105,26 @@ body {
     font-weight: 400;
 }
 
+.edit {
+    background-color: rgb(186, 204, 48);
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    border: none;
+    color: black;
+    font-weight: 400;
+}
+
+.delete {
+    background-color: rgb(204, 48, 48);
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    border: none;
+    color: black;
+    font-weight: 400;
+}
+
 .title-meta {
     font-size: 30px;
     color: rgb(220, 246, 242);

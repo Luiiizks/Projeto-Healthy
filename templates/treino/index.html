@@ -22,8 +22,8 @@
             {{ dia_semana|title }}:
             {% if treino %}
               <a class="seeDetails" href="{% url 'treino:dia' dia_semana %}">Ver Detalhes</a>
-              <a class="seeDetails" href="{% url 'treino:editar_treino' dia_semana %}">Editar</a>
-              <a class="seeDetails" href="{% url 'treino:excluir_treino' dia_semana %}">Excluir</a>
+              <a class="edit" href="{% url 'treino:editar_treino' dia_semana %}">Editar</a>
+              <a class="delete" href="{% url 'treino:excluir_treino' dia_semana %}">Excluir</a>
             {% else %}
               <a class="addTreino" href="{% url 'treino:dia' dia_semana %}">Adicionar Treino</a>
             {% endif %}
