@@ -94,6 +94,7 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 ## Diagrama de Atividades
 ![Diagrama de Atividades](https://github.com/Luiiizks/Projeto-Healthy/assets/126585562/65d16421-0811-466f-9317-17f12a41965f)
 
+## Quadro do Jira - Sprint 04
 ## Quadro do Jira 
 ![Quadro do Jira](https://github.com/Luiiizks/Projeto-Healthy/assets/98840187/0679fbf2-e4da-4059-9d75-871290e4b55b)
 
@@ -103,6 +104,7 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 
 
 ## Bug Tracker
+<img width="1246" alt="Captura de Tela 2023-11-27 às 23 42 21" src="https://github.com/Luiiizks/Projeto-Healthy/assets/92593605/97e79502-fc73-45ff-9148-95c7593840af">
 
 
 ## Relato de Pair Programming
