@@ -103,6 +103,7 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 
 
 ## Bug Tracker
+![image](https://github.com/Luiiizks/Projeto-Healthy/assets/127067011/809af27c-f9e4-49f4-827e-d58876aeb8e3)
 
 
 ## Relato de Pair Programming
