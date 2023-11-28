@@ -49,12 +49,89 @@ navbar_toggler_icon.click()
 wait = WebDriverWait(driver, 10)
 
 time.sleep(2)
-link_registros = WebDriverWait(driver, 10).until(
-    EC.element_to_be_clickable((By.XPATH, "//a[@class='nav-link dropdown-toggle' and @id='exerciciosDropdown']"))
-)
 
-# Clicar no link "Registros"
-link_registros.click()
 
 # Aguardar alguns segundos para visualização (opcional)
 driver.implicitly_wait(5)
+
+elemento_dropdown = WebDriverWait(driver, 10).until(
+    EC.visibility_of_element_located((By.ID, "treinoDropdown"))
+)
+
+# Clicar no elemento dropdown
+elemento_dropdown.click()
+elemento_link = WebDriverWait(driver, 10).until(
+    EC.visibility_of_element_located((By.XPATH, '//a[@class="dropdown-item" and contains(text(), "Planejar Treino")]'))
+)
+
+time.sleep(2)
+# Clicar no link
+elemento_link.click()
+WebDriverWait(driver, 20).until(
+    EC.presence_of_element_located((By.CLASS_NAME, "addTreino")) or
+    EC.presence_of_element_located((By.CLASS_NAME, "width-area"))
+)
+
+time.sleep(2)
+# Clicar no link "Adicionar Treino"
+elemento_link_adicionar_treino = driver.find_element(By.CLASS_NAME, "addTreino")
+elemento_link_adicionar_treino.click()
+
+time.sleep(2)
+# Esperar até que o textarea esteja presente
+elemento_textarea = WebDriverWait(driver, 10).until(
+    EC.presence_of_element_located((By.CLASS_NAME, "width-area"))
+)
+
+time.sleep(2)
+# Preencher o textarea
+texto_para_inserir = "supino 20kg"
+elemento_textarea.send_keys(texto_para_inserir)
+
+# Clicar no botão "Salvar"
+elemento_botao_salvar = driver.find_element(By.CLASS_NAME, "saveButton")
+elemento_botao_salvar.click()
+
+elemento_link_editar = WebDriverWait(driver, 10).until(
+    EC.visibility_of_element_located((By.CLASS_NAME, "edit"))
+)
+
+# Clicar no link "Editar"
+elemento_link_editar.click()
+
+time.sleep(2)
+# Preencher o <textarea> com novo texto
+elemento_textarea = WebDriverWait(driver, 10).until(
+    EC.visibility_of_element_located((By.CLASS_NAME, "width-area"))
+)
+elemento_textarea.clear()  # Limpar o conteúdo existente, se houver
+
+time.sleep(2)
+novo_texto = "Braço 23"
+elemento_textarea.send_keys(novo_texto)
+
+# Clicar no botão "Salvar"
+elemento_botao_salvar = WebDriverWait(driver, 10).until(
+    EC.visibility_of_element_located((By.CLASS_NAME, "saveButton"))
+)
+elemento_botao_salvar.click()
+
+time.sleep(2)
+
+
+elemento_link_excluir = WebDriverWait(driver, 10).until(
+    EC.visibility_of_element_located((By.CLASS_NAME, "delete"))
+)
+
+# Clicar no link "Excluir"
+elemento_link_excluir.click()
+
+time.sleep(2)
+elemento_botao_excluir = WebDriverWait(driver, 10).until(
+    EC.visibility_of_element_located((By.CLASS_NAME, "saveButton"))
+)
+
+# Clicar no botão "Sim, Excluir"
+elemento_botao_excluir.click()
+
+time.sleep(2)

@@ -91,15 +91,8 @@ driver.implicitly_wait(5)
 
 time.sleep(2)
 
-wait = WebDriverWait(driver, 10)
 
-# Encontrar o link <a> com a classe 'dropdown-item' e o atributo 'href'
-weight_goal_link = wait.until(EC.visibility_of_element_located((By.XPATH, '//a[@class="dropdown-item" and @href="/goals/weight_goal"]')))
 
-# Clique no link para ir para a página de definir meta de peso
-weight_goal_link.click()
 
-# Aguarde alguns segundos para visualizar o resultado (opcional)
-driver.implicitly_wait(5)
 
 

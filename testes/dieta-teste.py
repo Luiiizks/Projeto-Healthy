@@ -177,7 +177,7 @@ botao_salvar_alteracoes.click()
 link_excluir = WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.XPATH, "//a[@class='excButton' and contains(text(), 'Excluir')]"))
 )
-
+time.sleep(2)
 # Clicar no link "Excluir"
 link_excluir.click()
 
@@ -188,7 +188,7 @@ alert.accept()
 # Aguardar alguns segundos para visualização (opcional)
 driver.implicitly_wait(5)
 
-time.sleep(10)
+time.sleep(2)
 
 
 

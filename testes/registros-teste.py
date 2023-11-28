@@ -105,7 +105,7 @@ driver.implicitly_wait(5)
 time.sleep(2)
 
 link_visualizar = WebDriverWait(driver, 10).until(
-    EC.element_to_be_clickable((By.XPATH, "//a[@class='editButton' and contains(@href, '/registro/editar_registro/2/')]"))
+    EC.element_to_be_clickable((By.XPATH, "//a[@class='editButton' and contains(@href, '/registro/editar_registro/7/')]"))
 )
 
 # Clicar no link "Visualizar"
@@ -156,7 +156,7 @@ botao_salvar_alteracoes.click()
 driver.implicitly_wait(5)
 time.sleep(2)
 link_excluir = WebDriverWait(driver, 10).until(
-    EC.presence_of_element_located((By.XPATH, "//a[@class='excButton' and contains(@href, '/registro/excluir_registro/3/')]"))
+    EC.presence_of_element_located((By.XPATH, "//a[@class='excButton' and contains(@href, '/registro/excluir_registro/7/')]"))
 )
 
 # Clicar no link "Excluir"

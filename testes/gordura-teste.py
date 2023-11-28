@@ -112,3 +112,4 @@ botao_salvar.click()
 
 # Aguardar alguns segundos para visualização (opcional)
 driver.implicitly_wait(5)
+time.sleep(2)
