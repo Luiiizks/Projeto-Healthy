@@ -89,6 +89,7 @@ Realizar o login, ou o cadastro, caso seja a primeira vez acessando o site. Apó
 # Entrega 04
 
 ## Screencasts
+[**Pasta Screencasts da Entrega 4 - Link para o Drive**](https://drive.google.com/drive/folders/1fW_QUPUcljgDL6nruN7prgfboyaahN1P?usp=sharing) <br/>
 
 
 ## Diagrama de Atividades
