@@ -12,7 +12,7 @@ driver = webdriver.Chrome()
 driver.get('https://web-application-healthy.azurewebsites.net/accounts/login/')
 
 # Definir o tempo de espera
-wait = WebDriverWait(driver, 10)
+wait = WebDriverWait(driver, 9)
 
 # Encontrar e preencher o campo de usuário
 username_input = wait.until(EC.visibility_of_element_located((By.NAME, 'username')))
